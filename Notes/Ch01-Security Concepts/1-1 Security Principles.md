@@ -232,89 +232,89 @@ Domain D1.2.1, D1.2.2
 ### Risk Treatment 風險處理
 
 * Risk treatment relates **to making decisions about the best actions to take regarding the identified and prioritized risk**. The decisions made are dependent on the attitude of management toward risk and the availability — and cost — of risk mitigation. The options commonly used to respond to risk are:
-  * 
+  * 風險處理涉及「對已識別並進行優先考量的風險做出最佳行動決策」。所做的決策取決於管理層對風險的態度以及風險減輕的可用性和成本。常用的應對風險的選項有：
 
 * Avoidance: **It is the decision to attempt to eliminate the risk entirely**. This could include ceasing operation for some or all of the activities of the organization that are exposed to a particular risk. **Organization leadership may choose risk avoidance when the potential impact of a given risk is too high or if the likelihood of the risk being realized is simply too great**.
-  * 
+  * 避免：這是試圖完全消除風險的決策。這可能包括停止組織中某些或全部與特定風險相關的活動。當特定風險的潛在影響過大或風險實現的可能性極高時，組織的領導層可能會選擇避免風險。
 
 * Acceptance: Risk acceptance is taking **no action to reduce the likelihood of a risk occurring**. Management may opt for conducting the business function that is associated with the risk **without any further action on the part of the organization**, either because the impact or likelihood of occurrence is negligible, or because the benefit is more than enough to offset that risk.
-  * 
+  * 接受：風險接受是不採取任何行動減少風險發生的可能性。管理層可能選擇在風險相關的業務功能上不進一步採取組織方面的行動，無論是因為影響或發生的可能性微不足道，或者因為效益足以彌補風險。
 
 * Mitigation: Risk mitigation **is the most common type of risk management and includes taking actions to prevent or reduce the possibility of a risk event or its impact**. Mitigation can involve **remediation measures**, **or controls**, **such as security controls, establishing policies, procedures, and standards to minimize adverse risk**. Risk cannot always be mitigated, but mitigations such as safety measures should always be in place.
-  * 
+  * 緩解：風險緩解是最常見的風險管理類型，包括採取行動以防止或減少風險事件或其影響的可能性。緩解可以涉及糾正措施或控制措施，例如安全控制、建立政策、程序和標準，以最小化不利風險。風險不總是可以緩解，但應始終建立緩解措施，例如安全措施。
 
 * Transfer: **Risk transference is the practice of passing the risk to another party**, who will accept the financial impact of the harm resulting from a risk being realized in exchange for payment. Typically, this is an insurance policy.
-  * 
+  * 轉移：風險轉移是將風險轉移給另一方的做法，該方將接受風險實現所產生的損害的財務影響，以換取支付。通常，這是指保險政策。
 
-### Base Concepts
+### Base Concepts 基本概念
 
 * Mitigation: Taking action to prevent or reduce the impact of an event
-  * 
+  * 減輕：採取行動以防止或減少事件的影響。
 * Acceptance: Ignoring the risks and continuing risky activities
-  * 
+  * 接受：忽略風險並繼續進行冒險的活動。
 * Avoidance: Ceasing the risky activity to remove the likelihood that an event will occur
-  * 
+  * 避免：停止冒險活動以消除事件發生的可能性。
 * Vulnerability: An inherent weakness or flaw
-  * 
+  * 弱點：一個內在的弱點或缺陷。
 * Asset: Something of value that is owned by an organization, including physical hardware and intellectual property
-  * 
+  * 資產：組織擁有的具有價值的事物，包括實體硬體和智慧財產。
 * Threat: A person or an entity that deliberately takes actions to exploit a target
-  * 
+  * 威脅：有意針對目標進行行動以獲取利益的個人或實體。
 * Transference: Passing risk to a third party
-  * 
+  * 轉移：將風險轉移給第三方。
 
-### Risk Priorities
+### Risk Priorities 風險優先級
 
 * When risks have been identified, it is time to prioritize and analyze core risks through qualitative risk analysis and/or quantitative risk analysis. This is necessary to determine **root cause and narrow down apparent risks and core risks**. Security professionals work with their teams to conduct both qualitative and quantitative analysis. 
-  * 
+  * 當風險被確定後，就是時候進行定性風險分析和/或定量風險分析，以優先考慮和分析核心風險。這是為了確定根本原因並縮小明顯風險和核心風險。安全專業人員與他們的團隊合作進行定性和定量分析。
 
 * Understanding the organization’s overall mission and the functions that support the mission helps **to place risks in context**, **determine the root causes and prioritize the assessment and analysis of these items**. In most cases, management will provide direction for using the findings of the risk assessment to determine a prioritized set of risk-response actions.
-  * 
+  * 了解組織的整體使命和支持使命的功能有助於將風險放入其背景中，確定根本原因並優先考慮評估和分析這些事項。在大多數情況下，管理層將提供指導，以利用風險評估的結果來確定一組有優先順序的風險應對措施。
 
 * One effective method to prioritize risk is to use **a risk matrix**, which helps identify priority **as the intersection of likelihood of occurrence and impact**. It also gives the team a common language to use with management when determining the final priorities. For example, a low likelihood and a low impact might result in a low priority, while an incident with a high likelihood and high impact will result in a high priority. Assignment of priority may relate to business priorities, the cost of mitigating a risk or the potential for loss if an incident occurs.
-  * 
+  * 一種有效的優先考慮風險的方法是使用風險矩陣，它有助於將優先順序確定為發生可能性和影響的交集。它還為團隊在確定最終優先順序時與管理層使用共同的語言。例如，低發生可能性和低影響可能導致低優先順序，而高發生可能性和高影響的事件將導致高優先順序。優先順序的分配可能與業務優先事項、降低風險的成本或發生事件時的潛在損失相關。
 
-### Decision Making Based on Risk Priorities
+### Decision Making Based on Risk Priorities 基於風險優先級的決策
 
 * When making decisions based on risk priorities, organizations must evaluate the likelihood and impact of the risk as well as their tolerance for different sorts of risk. **A company in Hawaii is more concerned about the risk of volcanic eruptions than a company in Chicago, but the Chicago company will have to plan for blizzards**. In those cases, determining risk tolerance is up to the executive management and board of directors. If a company chooses to ignore or accept risk, exposing workers to asbestos, for example, it puts the company in a position of tremendous liability. 
-  * 
+  * 在基於風險優先順序做出決策時，組織必須評估風險的發生可能性和影響，以及對不同風險類型的容忍度。例如，夏威夷的一家公司更關注火山爆發的風險，而芝加哥的一家公司則需要計劃暴風雪的風險。在這些情況下，確定風險容忍度由執行管理層和董事會負責。如果一家公司選擇忽視或接受風險，例如讓工人接觸石棉，這將使該公司面臨巨大的法律責任。
 
-### Risk Tolerance
+### Risk Tolerance 風險承受能力
 
 * The perception management takes toward risk is often likened to the **entity’s appetite for risk**. **How much risk are they willing to take?** Does management welcome risk or want to avoid it? The level of risk tolerance varies across organizations, and even internally: Different departments may have different attitudes toward what is acceptable or unacceptable risk.
-  * 
+  * 管理層對風險的看法通常被比作實體的風險接受程度。他們願意承擔多少風險？管理層是否歡迎風險或希望避免風險？風險容忍度的水平因組織而異，甚至在內部也有差異：不同部門對可接受或不可接受的風險可能有不同的態度。
 
 * Understanding the organization and senior management’s attitude toward risk is usually the starting point for getting management to take action regarding risks. Executive management and/or the Board of Directors determines what is an acceptable level of risk for the organization. Security professionals aim to maintain the levels of risk within management’s limit of risk tolerance.
-  * 
+  * 了解組織和高級管理層對風險的態度通常是促使管理層針對風險採取行動的起點。執行管理層和/或董事會確定組織所能接受的風險水平。安全專業人員的目標是在管理層風險容忍度的限制範圍內維持風險水平。
 
 * Often, risk tolerance is dictated by geographic location. For example, companies in Iceland plan for the risks that nearby volcanoes impose on their business. Companies that are outside the projected path of a lava flow will be at a lower risk than those directly in the path’s flow. Similarly, the likelihood of a power outage affecting the data center is a real threat in all areas of the world. In areas where thunderstorms are common, power outages may occur more than once a month, while other areas may only experience one or two power outages annually. Calculating the downtime that is likely to occur with varying lengths of downtime will help to define a company’s risk tolerance. If a company has a low tolerance of the risk of downtime, they are more likely to invest in a generator to power critical systems. A company with an even lower tolerance for downtime will invest in multiple generators with multiple fuel sources to provide a higher level of assurance that the power will not fail.
-  * 
+  * 通常，風險容忍度是由地理位置所決定的。例如，冰島的公司會規劃附近火山對他們業務所帶來的風險。位於熔岩流預計路徑之外的公司風險較低，而直接位於路徑流動區域內的公司風險較高。同樣，停電對資料中心的影響在全球各地都是一個真實的威脅。在雷雨頻繁的地區，停電可能每月發生一次以上，而其他地區則可能每年只發生一到兩次停電。根據不同的停電時間長度來計算可能發生的停機時間，有助於界定公司的風險容忍度。如果公司對停機風險容忍度較低，他們更有可能投資於發電機來為關鍵系統提供電力。對於對停機容忍度要求更低的公司，他們將投資於多個發電機和多種燃料來源，以提供更高的保證電力不會中斷。
 
-## Module 3 Understand Security Control
+## Module 3 Understand Security Control 了解安全控制
 
 Domain D1.3.1, D1.3.2, D1.3.3
 
-### What are security controls? (FIBS PUB 199)
+### What are security controls? (FIBS PUB 199) 什麼是安全控制？
 
 * Security controls pertain to the **physical**, **technical** and **administrative mechanisms** that act as **safeguards or countermeasures prescribed for an information system to protect the confidentiality**, **integrity** **and availability of the system and its information**. The implementation of controls should **reduce risk**, hopefully to an acceptable level.
-  * 
+  * 安全控制涉及對信息系統採取的物理、技術和行政機制，作為系統和其信息的保密性、完整性和可用性的防護措施或對策。控制的實施應該能夠減少風險，希望能達到一個可接受的水平。
 
 * Physical control: it addresses process-based security needs using **physical hardware devices**, such as **badge readers**, **architectural features of buildings and facilities**, **and specific security actions to be taken by people**. They typically provide ways of controlling, directing or preventing the movement of people and equipment throughout a specific physical location, such as an office suite, factory or other facility. **Physical controls also provide protection and control over entry onto the land surrounding the buildings**, **parking lots or other areas that are within the organization’s control**. In most situations, physical controls are supported by technical controls as a means of incorporating them into an overall security system.
-  * 
+  * 物理控制：它使用物理硬體設備，例如識別卡閱讀器、建築物和設施的結構特徵以及人員需執行的特定安全措施，來應對基於流程的安全需求。這些控制通常提供了在特定物理位置（例如辦公套間、工廠或其他設施）中控制、指導或防止人員和設備移動的方式。物理控制還提供了對建築周圍土地、停車場或其他在組織控制範圍內的區域進行進入的保護和控制。在大多數情況下，物理控制作為一種手段，通常與技術控制相互支援，以將它們納入整體安全系統。
 
 * Technical control: it (also called logical controls) is security controls that **computer systems and networks directly implement**. These controls can provide automated protection from unauthorized access or misuse, facilitate detection of security violations and support security requirements for applications and data. Technical controls can be configuration settings or parameters stored as data, managed through a software graphical user interface (GUI), or they can be hardware settings done with switches, jumper plugs or other means. However, the implementation of technical controls always requires significant operational considerations and should be consistent with the management of security within the organization. Many of these will be examined in more depth as we look at them in later sections in this chapter and in subsequent chapters.
-  * 
+  * 技術控制（也稱為邏輯控制）：這些是由計算機系統和網路直接實施的安全控制。這些控制可以提供自動化的保護，以防止未經授權的訪問或濫用，促進檢測安全違規行為，並支援應用程序和數據的安全要求。技術控制可以是存儲為數據的配置設置或參數，通過軟件圖形用戶界面（GUI）進行管理，或者可以通過開關、跳線塞或其他方式進行硬件設置。然而，實施技術控制始終需要進行重要的操作考慮，並應與組織內的安全管理保持一致。在本章的後續部分和後續章節中，我們將更深入地研究這些技術控制。
 
 * Administrative control: it (also known as managerial controls) is **directives**, **guidelines** or **advisories aimed at the people within the organization**. They provide frameworks, constraints and standards for human behavior, and should cover the entire scope of the organization’s activities and its interactions with external parties and stakeholders. It is vitally important to realize that administrative controls **can and should be powerful, effective tools for achieving information security**. Even the simplest security awareness policies can be an effective control, if you can help the organization fully implement them through systematic training and practice. Many organizations are improving their overall security posture by integrating their administrative controls into the task-level activities and operational decision processes that their workforce uses throughout the day. This can be done by providing them as in-context ready reference and advisory resources, or by linking them directly into training activities. These and other techniques bring the policies to a more neutral level and away from the decision-making of only the senior executives. It also makes them immediate, useful and operational on a daily and per-task basis.
-  * 
+  * 管理控制（也稱為管理控制）：這些是針對組織內部人員的指示、指南或建議。它們為人類行為提供框架、約束和標準，應覆蓋組織活動的整個範圍以及與外部方和利益相關者的互動。重要的是要意識到，管理控制可以且應該成為實現信息安全的強大、有效的工具。即使是最簡單的安全意識政策，如果您能通過系統性的培訓和實踐幫助組織全面實施它們，也可以成為有效的控制措施。許多組織通過將管理控制納入到員工日常使用的任務級活動和運營決策過程中，提升了整體安全狀態。這可以通過提供上下文相關的參考和建議資源，或直接將其與培訓活動相鏈接來實現。這些和其他技術使政策達到了更中立的水平，遠離僅由高級執行人員作出的決策。它還使它們在每天和每個任務的基礎上成為即時、有用和可操作的。
 
 * Some examples:
   * Administrative: acceptable use policy, emergency operations procedures, employee awareness training
-    * 
+    * 管理控制：可接受使用政策、緊急操作程序、員工意識培訓。
   * Physical: Badge reader, stop sign in parking lot, door lock
-    * 
+    * 物理：徽章閱讀器、停車場停車標誌、門鎖
   * Technical: access control list
-    * 
+    * 技術：訪問控制列表
 
 ## Module 4 Understand Governance and Elements and Process
 
