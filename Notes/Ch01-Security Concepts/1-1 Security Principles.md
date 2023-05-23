@@ -316,28 +316,28 @@ Domain D1.3.1, D1.3.2, D1.3.3
   * Technical: access control list
     * 技術：訪問控制列表
 
-## Module 4 Understand Governance and Elements and Process
+## Module 4 Understand Governance and Elements and Process 了解治理、要素和流程
 
 Domain D1.5.1, D1.5.2, D1.5.3, D1.5.4
 
-### Governance Elements
+### Governance Elements 治理要素
 
 * When leaders and management implement the systems and structures that the organization will use to achieve its goals, they are **guided by laws and regulations created by governments to enact public policy**. **Laws and regulations guide the development of standards, which cultivate policies, which result in procedures**.
-  * 
+  * 當領導者和管理層實施組織將用來實現其目標的系統和結構時，他們**受政府制定的法律和法規的指導，以製定公共政策**。 **法律法規引導制定標準，制定政策，制定程序**。
 
 * **Procedures** are the detailed steps to complete a task that support departmental or organizational policies.
-  * 
+  * **程序**是完成支持部門或組織政策的任務的詳細步驟。
 
 * **Policies** are put in place by organizational governance, such as executive management, to provide guidance in all activities to ensure that the organization supports industry standards and regulations.
-  * 
+  * **政策**由組織治理（例如執行管理）制定，以在所有活動中提供指導，以確保組織支持行業標準和法規。
 
 * **Standards** are often used by governance teams to provide a framework to introduce policies and procedures in support of regulations.
-  * 
+  * **標準**經常被治理團隊用來提供一個框架來引入支持法規的政策和程序。
 
 * **Regulations** are commonly issued in the form of laws, usually from government (not to be confused with governance) and typically carry financial penalties for noncompliance.
-  * 
+  * **法規**通常以法律的形式發布，通常來自政府（不要與治理混淆），並且通常會對違規行為進行經濟處罰。
 
 * Regulations -> Standards -> Policies -> Procedures
-  * 
+  * 法規 -> 標準 -> 政策 -> 程序
 
-## Module 5 Understand (ISC)² Code of Ethics
+## Module 5 Understand (ISC)² Code of Ethics 了解 (ISC)² 道德規範
