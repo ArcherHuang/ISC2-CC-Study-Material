@@ -16,12 +16,12 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
     * PHI 代表受保護的健康信息，包括關於個人健康狀況的信息，以及分類或敏感信息，其中包括商業機密、研究、業務計劃和知識產權。
 
 * Related to confidentiality is **the concept sensitivity a measure of the importance assigned to information by its owner**, or the purpose of denoting its need for protection. **Sensitive information** is information that if improperly disclosed (confidentiality) or modified (integrity) would harm an organization or individual. In many cases, sensitivity is related to the harm to external stakeholders; that is, people or organizations that may not be a part of the organization that processes or uses the information.
-  * 
+  * 與機密性相關的是敏感度概念，它是根據信息擁有者對信息所賦予的重要性進行衡量，或者用於表示其需要受到保護的目的。敏感信息是指如果被不當披露（機密性）或修改（完整性），將對組織或個人造成損害的信息。在許多情況下，敏感性與對外部利益相關方的損害有關；也就是說，這些人或組織可能不是處理或使用信息的組織的一部分。
 
-* Threat related to confidentiality are:
+* Threat related to confidentiality are: 與保密相關的威脅是：
 
 1. Snooping involves gathering information that is left out in the open. Clean desk policies protect against snooping.
-  * 
+  * 窺探涉及收集公開遺漏的信息。 清潔桌面策略可防止窺探。
 2. Dumpster diving also looking for sensitive materials, but in the dumpster, a paper shredding protects against it.
   * 
 3. Eavesdropping occurs when someone secretly listen to a conversation, and it can be prevent with rules about sensitive conversations 
