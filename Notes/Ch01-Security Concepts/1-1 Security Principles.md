@@ -20,15 +20,15 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
 
 * Threat related to confidentiality are: 與保密相關的威脅是：
   * 1. Snooping involves gathering information that is left out in the open. Clean desk policies protect against snooping.
-    * 窺探涉及收集公開遺漏的信息。 清潔桌面策略可防止窺探。
+    * 窺探行為涉及收集那些公開可見的信息。整潔辦公桌政策可防止窺探行為的發生。
   * 2. Dumpster diving also looking for sensitive materials, but in the dumpster, a paper shredding protects against it.
-    * 
+    * 垃圾探測是指在垃圾箱中搜尋敏感資料，但通過使用紙張碎紙機可以保護免受垃圾探測的侵害。
   * 3. Eavesdropping occurs when someone secretly listen to a conversation, and it can be prevent with rules about sensitive conversations 
-    *  
-  * 4. Wiretapping is the electronic version of eavesdropping, the best way against that is using encryption to protect the communication. 
-    * 
+    * 竊聽是指某人秘密聆聽對話，可以通過關於敏感對話的規定來預防。
+  * 4. Wiretapping is the electronic version of eavesdropping, the best way against that is using encryption to protect the communication.
+    * 窃听是竊聽的電子版本，對抗窃听的最佳方式是使用加密來保護通信。
   * 5. Social Engineering, the best defense is educate users to protect them against social engineering.
-    * 
+    * 社交工程攻擊，最佳的防禦方法是教育使用者以保護他們免受社交工程攻擊。
 
 ### Integrity 完整性
 
