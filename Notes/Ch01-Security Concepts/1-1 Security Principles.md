@@ -33,22 +33,26 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
 ### Integrity 完整性
 
 * It is the property of information whereby it is recorded, used and maintained in a way that ensures its completeness, accuracy, internal consistency and usefulness for a stated purpose, which can be applied **to information or data**, **system and process for business operations**, **organizations**, **people and their actions**. Furthermore, restrict to data integrity, it is an assurance that  data has not been altered in an unauthorized manner, covering data **in storage**, during **processing**, and while **in transit**. 
+  * 完整性是信息的一項屬性，通過記錄、使用和維護的方式確保其完整性、準確性、內部一致性和對於指定目的的有用性，這可以應用於信息或數據、用於業務運營的系統和流程、組織、人員及其行動。此外，限於數據完整性，它是一種保證數據未經未經授權的方式進行更改的保證，涵蓋了存儲的數據、處理過程中的數據以及傳輸過程中的數據。
 
 * **Consistency** is another concept related to integrity and requires that all instances of the data be identical in form, content and meaning. When related to system integrity, it refers to the maintenance of a known good configuration and expected operational function as the system processes the information. Ensuring integrity begins with an awareness of state, which is the current condition of the system. Specifically, this awareness concerns the ability to document and understand the state of data or a system at a certain point, **creating a baseline**. A baseline, which means a documented, lowest level of security configuration allowed by a standard or organization, can refer to the current state of the information—whether it is protected. 
+  * 一致性是與完整性相關的另一個概念，要求數據的所有實例在形式、內容和含義上都是相同的。當涉及到系統的完整性時，它指的是在系統處理信息時維護已知的良好配置和預期的操作功能。確保完整性始於對系統狀態的認識，即系統的當前狀態。具體而言，這種認識涉及在某一點上記錄和了解數據或系統的狀態，即創建基準。基準指的是根據標準或組織允許的安全配置的文件化最低級別，可以指的是信息的當前狀態，即是否受到保護。
 
 * To preserve that state, the information must always continue to be protected through a transaction. Going forward from that baseline, the integrity of the data or the system can always be ascertained by comparing the baseline with the current state. If the two match, then the integrity of the data or the system is intact; if the two do not match, then the integrity of the data or the system has been compromised. Integrity is a primary factor in the reliability of information and systems. The need to safeguard information and system integrity may be dictated by laws and regulations. Often, it is dictated by the needs of the organization to access and use reliable, accurate information.
+  * 為了保持這種狀態，信息必須始終通過交易來保護。從基準出發，可以通過將基準與當前狀態進行比較來確定數據或系統的完整性。如果兩者相匹配，則數據或系統的完整性保持完好；如果兩者不匹配，則數據或系統的完整性已被破壞。完整性是信息和系統可靠性的主要因素。保護信息和系統完整性的需要可能受到法律和法規的規定。通常情況下，這是根據組織對可靠、準確信息的訪問和使用需求來確定的。
 
-1. Unauthorized modification attacks make changes without permission. The best way to protect against that is the least privilege principle.
-  * 
-2. Impersonation attacks pretend to be someone else. User education protects against impersonation attack.
-  * 
-3. Man-In-The-Middle (MITM) attacks place the attacker in the middle of a communication session, monitoring everything that's occurring.  
-  * 
-4. Replay attacks eavesdrop on logins and reuse the captured credentials.
-  * 
+* 1. Unauthorized modification attacks make changes without permission. The best way to protect against that is the least privilege principle.
+  * 未經授權的修改攻擊是指在未經許可的情況下進行更改。保護自身免受此類攻擊的最佳方式是最小權限原則。
+* 2. Impersonation attacks pretend to be someone else. User education protects against impersonation attack.
+  * 冒名攻擊是指假冒他人身份。使用者教育可預防冒名攻擊。
+* 3. Man-In-The-Middle (MITM) attacks place the attacker in the middle of a communication session, monitoring everything that's occurring.  
+  * 中間人攻擊（Man-In-The-Middle，MITM攻擊）將攻擊者置於通信會話的中間，監視一切正在發生的事情。
+* 4. Replay attacks eavesdrop on logins and reuse the captured credentials.
+  * 重放攻擊是指竊聽登錄信息並重複使用被截獲的憑證。
 
-To both MiTM and Replay attacks the best approach is encryption.
-
+* To both MITM and Replay attacks the best approach is encryption.
+  * 對於 MITM 和 Replay 攻擊，最好的方法是加密。
+  
 ### Availability 可用性
 
 * It means that systems and data are accessible at the time users need them. It can be defined as timely and reliable access to information and the ability to use it, and for authorized users, timely and reliable access to data and information services. 
