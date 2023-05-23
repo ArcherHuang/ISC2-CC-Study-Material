@@ -73,53 +73,64 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
   * 服務中斷
 
 ### Three steps to gain access, known as triple A, which means Authentication, Authorization, Accounting
+* 獲取訪問權限的三個步驟，稱為「三個A」，即認證（Authentication）、授權（Authorization）和記帳（Accounting）。
 
-#### Identification
+#### Identification 鑑別
 
-Consist of making a claim of identity
+* Consist of making a claim of identity
+  * 包括提出身份聲明
 
-#### Authentication
+#### Authentication 認證
 
 * When users have stated their identity, it is necessary **to validate that they are the rightful owners of that identity**. This process of verifying or proving the user’s identification is known as authentication, which means in another terms access control process validating that the identity being claimed by a user or entity is known to the system, by comparing one (single-factor or SFA) or more (multi-factor authentication or MFA) factors of authentication. Simply put, authentication is a process to prove the identity of the requestor.
+  * 當用戶聲明了他們的身份後，有必要驗證他們是否是該身份的合法擁有者。這個驗證或證明用戶身份的過程稱為認證，也就是在其他術語中，通過比較一個（單因素認證或SFA）或多個（多因素認證或MFA）認證要素，來驗證系統已知用戶或實體聲稱的身份。簡單來說，認證是一個證明請求者身份的過程。
 
-There are three common methods of authentication:
+* There are three common methods of authentication: 常見的認證方式有以下三種：
+  * Something you know: Passwords or paraphrases
+    * 你知道的東西：密碼或釋義
+  * Something you have: Tokens (NISTIR 7711), memory cards, smart cards
+    * 您擁有的東西：令牌 (NISTIR 7711)、存儲卡、智能卡
+  * Something you are: Biometrics , measurable characteristics
+    * 你是什麼：生物識別，可測量的特徵
 
-* Something you know: Passwords or paraphrases
-  * 
-* Something you have: Tokens (NISTIR 7711), memory cards, smart cards
-  * 
-* Something you are: Biometrics , measurable characteristics
-  * 
-
-#### Methods of Authentication
+#### Methods of Authentication 認證方法
 
 * There are two types of authentication. Using only one of the methods of authentication stated previously is **known as single-factor authentication (SFA)**. Granting users access only after successfully demonstrating or displaying two or more of these methods is **known as multi-factor authentication (MFA)**. 
+  * 有兩種類型的認證。僅使用前述認證方法之一被稱為單因素認證（SFA）。只有在成功展示或應用兩種或更多方法後，才允許用戶獲取訪問，這被稱為多因素認證（MFA）。
 
- **Common best practice is to implement at least two of the three common techniques for authentication**: 
-
-* Knowledge-based 
-* Token-based 
-* Characteristic-based  
+* **Common best practice is to implement at least two of the three common techniques for authentication**: 常見的最佳實踐是實施至少三種常見的認證技術中的兩種：
+  * Knowledge-based 知識為基礎
+  * Token-based 令牌為基礎
+  * Characteristic-based 特徵為基礎
 
 * Knowledge-based authentication uses a passphrase or secret code to differentiate between an authorized and unauthorized user. If you have selected a personal identification number (PIN), created a password or some other secret value that only you know, then you have experienced knowledge-based authentication. The problem with using this type of authentication alone is that it is often vulnerable to a variety of attacks. For example, the help desk might receive a call to reset a user’s password. The challenge is ensuring that the password is reset only for the correct user and not someone else pretending to be that user. For better security, a second or third form of authentication that is based on a token or characteristic would be required prior to resetting the password. The combined use of a user ID and a password consists of two things that are known, and because it does not meet the requirement of using two or more of the authentication methods stated, it is not considered MFA.
+  * 基於知識的認證使用密語或秘密代碼來區分授權和未授權的用戶。如果您選擇了個人識別號碼（PIN）、創建了密碼或其他只有您知道的秘密值，那麼您就體驗過基於知識的認證。僅使用此類認證存在的問題是，它常常容易受到各種攻擊。例如，幫助台可能會接到一個要求重置用戶密碼的電話。挑戰在於確保密碼只為正確的用戶重置，而不是別人冒充該用戶。為了提高安全性，在重置密碼之前，需要使用基於令牌或特徵的第二或第三種認證形式。僅使用用戶ID和密碼的組合屬於已知的兩個因素，因為它不滿足使用兩種或更多的認證方法的要求，因此不被視為多因素認證（MFA）。
 
-#### Password
+#### Password 密碼
 
 * Password length requirements set a minimum number of chars
+  * 密碼長度要求設置最小字符數
 * Password complexity requirements describe the types of characters that must be included
+  * 密碼複雜性要求描述了必須包含的字符類型
 * Password expiration requirements force password changes. Nowadays, that requirement isn't used, companies change to an approach where force password change is required when there is any evidence that the password has been compromised.
+  * 密碼過期要求強制更改密碼。 如今，該要求已不再使用，公司改為在有任何證據表明密碼已被洩露時需要強制更改密碼的方法。
 * Password history requirements prevent password reuse.
+  * 密碼歷史要求可防止密碼重複使用。
 * Provide a way to change the password quickly and easily.
+  * 提供一種快速輕鬆地更改密碼的方法。
 * Encourage users to not reuse the same password across multiple sites
+  * 鼓勵用戶不要在多個站點重複使用相同的密碼
 * Password managers facilitate the use of strong, unique passwords
+  * 密碼管理器有助於使用強而獨特的密碼
 
-#### Authorization
-
-Ensuring that an action is allowed.
+#### Authorization 授權
+* Ensuring that an action is allowed.
+  * 確保允許操作。
 
 #### Accounting
 
-Its maintains logs of activity
+* Its maintains logs of activity
+  * 它維護活動日誌
 
 ### Non-repudiation
 
