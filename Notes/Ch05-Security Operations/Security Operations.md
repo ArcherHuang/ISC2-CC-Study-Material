@@ -243,85 +243,77 @@ Domain D5.4, D5.4.1, D5.4.2, D5.3.2
   * 教育：教育的整體目標是幫助學習者提高對這些概念的理解能力，並能將其與自身經驗相關聯，並以有用的方式應用所學。
 
 * **Training**: Focuses on **building proficiency in a specific set of skills or actions**, including sharpening the perception and judgment needed to make decisions as to which skill to use, when to use it and how to apply it. **Training can focus on low-level skills, an entire task or complex workflows consisting of many tasks**.
-  * 
+  * 訓練：著重於建立對特定技能或行動的熟練程度，包括提升辨識力和判斷力，以便做出關於何時使用哪種技能、如何使用以及如何應用的決策。訓練可以針對低層次技能、整個任務或由多個任務組成的複雜工作流程進行。
 
 * **Awareness**: These are activities that attract and engage the learner’s attention by acquainting them with aspects of an issue, concern, problem or need.
-  * 
+  * 認知：這些活動通過使學習者熟悉問題、關注點、問題或需求的方面，吸引並引起他們的注意。
 
 * You’ll notice that none of these have an expressed or implied degree of formality, location or target audience. (Think of a newly hired senior executive with little or no exposure to the specific compliance needs your organization faces; first, someone has to get their attention and make them aware of the need to understand. The rest can follow.)
-  * 
+  * 你會注意到，這些都沒有明示或暗示的正式程度、地點或目標受眾。（想像一下一位新雇用的高級主管，對貴組織面臨的具體合規需求幾乎沒有了解；首先，需要有人引起他們的注意，讓他們認識到需要理解這個需求。其餘的事情可以隨之而來。）
 
-### Security Awareness Training Examples
+### Security Awareness Training Examples 安全意識培訓示例
 
 * Let’s look at an example of security awareness training by using an organization’s strategy to improve fire safety in the workplace: 
-  * 
+  * 讓我們通過使用一個組織改善工作場所防火安全策略的例子來了解安全意識訓練：
 
-* Education may help workers in a secure server room understand the interaction of the various fire and smoke detectors, suppression systems, alarms and their interactions with electrical power, lighting and ventilation systems. 
-Training would provide those workers with task-specific, detailed learning about the proper actions each should take in the event of an alarm, a suppression system going off without an alarm, a ventilation system failure or other contingency. This training would build on the learning acquired via the educational activities. 
-Awareness activities would include not only posting the appropriate signage, floor or doorway markings, but also other indicators to help workers detect an anomaly, respond to an alarm and take appropriate action. In this case, awareness is a constantly available reminder of what to do when the alarms go off. 
-  * 
+* Education may help workers in a secure server room understand the interaction of the various fire and smoke detectors, suppression systems, alarms and their interactions with electrical power, lighting and ventilation systems. Training would provide those workers with task-specific, detailed learning about the proper actions each should take in the event of an alarm, a suppression system going off without an alarm, a ventilation system failure or other contingency. This training would build on the learning acquired via the educational activities. Awareness activities would include not only posting the appropriate signage, floor or doorway markings, but also other indicators to help workers detect an anomaly, respond to an alarm and take appropriate action. In this case, awareness is a constantly available reminder of what to do when the alarms go off. 
+  * 教育可以幫助在安全伺服器室工作的人了解各種火災和煙霧探測器、壓制系統、警報器之間的互動，以及它們與電力、照明和通風系統的互動。訓練將向這些工作人員提供具體任務的詳細學習，使他們了解在發生警報、壓制系統未經警報啟動、通風系統故障或其他突發情況時應該採取的正確行動。此訓練將建立在通過教育活動所獲得的學習基礎上。認知活動不僅包括張貼適當的標示、地板或門口標記，還包括其他指標，以幫助工作人員檢測異常、對警報作出反應並采取適當行動。在這種情況下，認知是一個不斷可用的提醒，提醒人們警報器響起時應該怎麼做。
 
 * Translating that into an anti-phishing campaign might be done by: 
-  * 
+  * 將其轉化為一個反釣魚運動可能可以通過以下方式進行：
 
 * Education may be used to help select groups of users better understand the ways in which social engineering attacks are conducted and engage those users in creating and testing their own strategies for improving their defensive techniques. 
-  * 
+  * 教育可以用來幫助選擇一些使用者群體更好地理解社交工程攻擊的方式，並讓這些使用者參與創建和測試改進自己防禦技巧的策略。
 * Training will help users increase their proficiency in recognizing a potential phishing or similar attempt, while also helping them practice the correct responses to such events. Training may include simulated phishing emails sent to users on a network to test their ability to identify a phishing email.
-  * 
+  * 訓練將幫助使用者提高他們識別潛在釣魚或類似企圖的能力，同時也幫助他們練習對這類事件的正確應對。訓練可能包括向網絡上的使用者發送模擬釣魚郵件，以測試他們辨識釣魚郵件的能力。
 * Raising users’ overall awareness of the threat posed by phishing, vishing, SMS phishing (also called “smishing) and other social engineering tactics. Awareness techniques can also alert selected users to new or novel approaches that such attacks might be taking. 
-  * 
+  * 提高使用者對釣魚、語音釣魚、短信釣魚（也被稱為「smishing」）和其他社交工程策略威脅的整體認識。認知技巧還可以向選定的使用者提醒這類攻擊可能采取的新方法或新策略。
 * Let’s look at some common risks and why it’s important to include them in your security awareness training programs. 
-  * 
+  * 讓我們來看看一些常見的風險以及為什麼將它們納入您的安全意識訓練計劃中是很重要的。
 
-#### Phishing
+#### Phishing 網絡釣魚
 
 * The use of phishing attacks to target individuals, entire departments and even companies is a significant threat that the security professional needs to be aware of and be prepared to defend against. Countless variations on the basic phishing attack have been developed in recent years, leading to a variety of attacks that are deployed relentlessly against individuals and networks in a never-ending stream of emails, phone calls, spam, instant messages, videos, file attachments and many other delivery mechanisms.
-  * 
+  * 使用釣魚攻擊來針對個人、整個部門甚至公司，是安全專業人員需要意識到並準備好防禦的重大威脅。近年來，針對基本釣魚攻擊的無數變體已經被開發出來，導致各種攻擊無情地部署在不斷湧現的電子郵件、電話、垃圾郵件、即時消息、視頻、附件文件和許多其他傳遞機制中，對個人和網絡進行攻擊。
 
 * Phishing attacks that attempt to trick highly placed officials or private individuals with sizable assets into authorizing large fund wire transfers to previously unknown entities are known as whaling attacks .
-  * 
+  * 試圖欺騙高層官員或擁有大量資產的私人個人，使其授權將大筆資金轉移到先前未知實體的釣魚攻擊被稱為鯨魚攻擊。
 
-#### Social Engineering
+#### Social Engineering 社交工程
 
 * Social engineering is an important part of any security awareness training program for one very simple reason: bad actors know that it works. For the cyberattackers, social engineering is an inexpensive investment with a potentially very high payoff. Social engineering, applied over time, can extract significant insider knowledge about almost any organization or individual.
-  * 
+  * 社交工程是任何安全意識訓練計畫中的重要一環，原因非常簡單：惡意行為者知道它有效。對於駭客來說，社交工程是一個投入少但可能回報極高的廉價投資。長期應用社交工程可以提取關於幾乎任何組織或個人的重要內部知識。
 
 * One of the most important messages to deliver in a security awareness program is an understanding of the threat of social engineering. People need to be reminded of the threat and types of social engineering so that they can recognize and resist a social engineering attack.
-  * 
+  * 在安全意識計畫中傳達的最重要信息之一是對社交工程威脅的理解。人們需要被提醒社交工程的威脅和類型，以便他們能夠辨識和抵抗社交工程攻擊。
 
 * Most social engineering techniques are not new. Many have even been taught as basic fieldcraft for espionage agencies and are part of the repertoire of investigative techniques used by real and fictional police detectives. A short list of the tactics that we see across cyberspace currently includes:
-  * 
+  * 大多數社交工程技巧並不新鮮。許多甚至作為間諜機構的基本野外技能被教授，並成為真實和虛構警探所使用的調查技巧的一部分。目前在網絡空間中，我們看到的一系列策略包括：
 
 * Phone phishing or vishing: Using a rogue interactive voice response (IVR) system to re-create a legitimate-sounding copy of a bank or other institution’s IVR system. The victim is prompted through a phishing email to call in to the “bank” via a provided phone number to verify information such as account numbers, account access codes or a PIN and to confirm answers to security questions, contact information and addresses. A typical vishing system will reject logins continually, ensuring the victim enters PINs or passwords multiple times, often disclosing several different passwords. More advanced systems may be used to transfer the victim to a human posing as a customer service agent for further questioning.
-  * 
+  * 電話釣魚或語音釣魚（vishing）：使用一個惡意互動式語音回應（IVR）系統來重新創建銀行或其他機構的合法聽起來的IVR系統副本。受害人會在釣魚郵件中被提示通過提供的電話號碼致電「銀行」，以驗證帳戶號碼、帳戶存取代碼或個人識別碼（PIN），並確認安全問題的答案、聯絡信息和地址。一個典型的語音釣魚系統會持續拒絕登錄，確保受害人多次輸入PIN或密碼，通常洩露出多個不同的密碼。更先進的系統可能會將受害人轉接到冒充客戶服務代理人的人類，進一步詢問資訊。
 
 * Pretexting: The human equivalent of phishing, where someone impersonates an authority figure or a trusted individual in an attempt to gain access to your login information. The pretexter may claim to be an IT support worker who is supposed to do maintenance or an investigator performing a company audit. Or they might impersonate a coworker, the police, a tax authority or some other seemingly legitimate person. The goal is to gain access to your computer and information.
-  * 
-* Quid pro quo: A request for your password or login credentials in exchange for some compensation, such as a “free gift,” a monetary payment or access to an online game or service. If it sounds too good to be true, it probably is.
-Tailgating: The practice of following an authorized user into a restricted area or system. The low-tech version of tailgating would occur when a stranger asks you to hold the door open behind you because they forgot their company RFID card. In a more sophisticated version, someone may ask to borrow your phone or laptop to perform a simple action when he or she is actually installing malicious software onto your device.
-Social engineering works because it plays on human tendencies. Education, training and awareness work best to counter or defend against social engineering because they help people realize that every person in the organization plays a role in information security.
-  * 
+  * 冒名頂替：這是與釣魚相當的人類詐騙手法，其中有人假冒權威人士或受信任的個人，試圖獲取您的登錄信息。冒名者可能聲稱自己是IT支援人員，需要進行維護工作，或者是進行公司審計的調查員。或者他們可能冒充同事、警方、稅務機構或其他看似合法的人。其目標是獲得您的計算機和信息存取權限。
+* Quid pro quo: A request for your password or login credentials in exchange for some compensation, such as a “free gift,” a monetary payment or access to an online game or service. If it sounds too good to be true, it probably is. Tailgating: The practice of following an authorized user into a restricted area or system. The low-tech version of tailgating would occur when a stranger asks you to hold the door open behind you because they forgot their company RFID card. In a more sophisticated version, someone may ask to borrow your phone or laptop to perform a simple action when he or she is actually installing malicious software onto your device. Social engineering works because it plays on human tendencies. Education, training and awareness work best to counter or defend against social engineering because they help people realize that every person in the organization plays a role in information security.
+  * 交換：要求您提供密碼或登錄憑據，以換取某種補償，例如「免費禮品」、金錢支付或訪問網絡遊戲或服務。如果聽起來太好以至於難以置信，那可能就是如此。 尾隨：跟隨授權用戶進入限制區域或系統的行為。低技術版本的尾隨可能發生在當一個陌生人請求您將門留開，因為他們忘記了公司的 RFID 卡。在更複雜的版本中，有人可能會要求借用您的手機或筆記型電腦進行一個簡單的操作，而實際上他們正在您的設備上安裝惡意軟件。 社交工程之所以有效，是因為它利用了人類的傾向。教育、培訓和意識對抗或防禦社交工程效果最佳，因為它們幫助人們意識到組織中的每個人在信息安全中扮演著一個角色。
 
-#### Password Protection
+#### Password Protection 密碼保護
 
 * We use many different passwords and systems. Many password managers will store a user’s passwords for them so the user does not have to remember all their passwords for multiple systems. The greatest disadvantage of these solutions is the risk of compromise of the password manager.
-  * 
+  * 我們使用許多不同的密碼和系統。許多密碼管理器可以為用戶存儲他們的密碼，這樣用戶就不必為多個系統記住所有密碼。這些解決方案最大的缺點是密碼管理器被破壞的風險。
 
 * These password managers may be protected by a weak password or passphrase chosen by the user and easily compromised. There have been many cases where a person’s private data was stored by a cloud provider but easily accessed by unauthorized persons through password compromise.
-  * 
+  * 這些密碼管理器可能受到用戶選擇的弱密碼或密語保護，容易受到破壞。曾經發生過許多情況，一個人的私人數據被雲服務提供商存儲，但通過密碼被未經授權的人輕易地訪問的情況。
 
 * Organizations should encourage the use of different passwords for different systems and should provide a recommended password management solution for its users.
-  * 
+  * 組織應該鼓勵用戶在不同系統中使用不同的密碼，並為其用戶提供一個推薦的密碼管理解決方案。
 
 * Examples of poor password protection that should be avoided are:
-  * 
+  * 應該避免的糟糕密碼保護的例子包括：
 * Reusing passwords for multiple systems, especially using the same password for business and personal use.
-  * 
+  * 在多個系統中重複使用密碼，尤其是在商業和個人用途中使用相同的密碼。
 * Writing down passwords and leaving them in unsecured areas.
-  * 
+  * 將密碼寫下來並將其留在不安全的區域。
 * Sharing a password with tech support or a co-worker.
-  * 
-
-
-
-
+  * 與技術支援或同事共享密碼。
