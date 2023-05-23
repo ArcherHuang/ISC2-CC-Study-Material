@@ -7,7 +7,7 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
 ### Confidentiality 機密
 
 * It relates to permitting authorized access to information, while at the same time protecting information from improper disclosure. Difficulties to achieve confidentiality are related to: **many users are guests or customers**, and it is not clear if the access comes from a compromised machine or vulnerable mobile application. To avoid those difficulties, security professionals must regulate access, permitting access to authorized individuals, for that protecting the data that needs protection. 
-  * 它涉及允許授權訪問資訊，同時保護資訊免受不當披露。實現機密性的困難與以下問題相關：很多用戶都是訪客或客戶，並且不清楚訪問是否來自被入侵的機器或有漏洞的移動應用程序。為了避免這些困難，安全專業人員必須規範訪問，允許授權人員訪問並保護需要保護的數據。
+  * 它涉及允許授權訪問信息，同時保護信息免受不當披露。實現機密性的困難與以下問題相關：很多用戶都是訪客或客戶，並且不清楚訪問是否來自被入侵的機器或有漏洞的移動應用程序。為了避免這些困難，安全專業人員必須規範訪問，允許授權人員訪問並保護需要保護的數據。
 
 * Data that needs protections is also known **as PII or PHI**.  需要保護的數據也被稱為 PII 或 PHI
   * **PII** stands for Personally Identifiable Information and it is related to the area of confidentiality and it means any data that could be used to identify an individual. 
