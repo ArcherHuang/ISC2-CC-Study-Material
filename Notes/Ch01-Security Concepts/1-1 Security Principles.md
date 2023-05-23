@@ -132,112 +132,163 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
 * Its maintains logs of activity
   * 它維護活動日誌
 
-### Non-repudiation
+### Non-repudiation 不可否認性
 
-Non-repudiation is a legal term and is defined as the protection against an individual falsely denying having performed a particular action. It provides the capability to determine whether a given individual took a particular action, such as created information, approved information or sent or received a message.
+* Non-repudiation is a legal term and is defined as the protection against an individual falsely denying having performed a particular action. It provides the capability to determine whether a given individual took a particular action, such as created information, approved information or sent or received a message.
+  * 不可否認性是一個法律術語，被定義為防止個人虛假否認執行特定操作的保護。它提供了確定特定個人是否執行了特定操作的能力，例如創建信息、批准信息或發送或接收消息。
 
-In today’s world of e-commerce and electronic transactions, **there are opportunities for the impersonation of others or denial of an action, such as making a purchase online and later denying it**. It is important that all participants trust online transactions. **Non-repudiation methodologies ensure that people are held responsible for transactions they conducted**.
+* In today’s world of e-commerce and electronic transactions, **there are opportunities for the impersonation of others or denial of an action, such as making a purchase online and later denying it**. It is important that all participants trust online transactions. **Non-repudiation methodologies ensure that people are held responsible for transactions they conducted**.
+  * 在當今的電子商務和電子交易世界中，存在著冒充他人或否認行為的機會，例如在網上購物後否認購買行為。重要的是，所有參與者都要信任線上交易。不可否認的方法確保人們對他們進行的交易負責。
 
-### Base Concepts
+### Base Concepts 基本概念
 
-1. Authorization: the right or a permission that is granted to a system entity to access a system resource
-2. Integrity: the property that data has not been altered in an unauthorized manner
-3. Confidentiality: the characteristic of data or information when it is not made available or disclosed to unauthorized persons or process 
-4. Privacy: the right of an individual to control the distribution of information about themselves
-5. Availability: Ensuring timely and reliable access to and use of information by authorized users
-6. Non-repudiation: The inability to deny taking an action, such as sending an email message
-7. Authentication: Access control process that compares one or more factors of identification to validate that the identity claimed by a user or entity is known to the system
+* 1. Authorization: the right or a permission that is granted to a system entity to access a system resource
+  * 授權：授予系統實體訪問系統資源的權利或許可權。
+* 2. Integrity: the property that data has not been altered in an unauthorized manner
+  * 完整性：指數據未經未授權的方式被更改的屬性。
+* 3. Confidentiality: the characteristic of data or information when it is not made available or disclosed to unauthorized persons or process 
+  * 保密性：當數據或信息未被提供或披露給未經授權的個人或過程時的特性。
+* 4. Privacy: the right of an individual to control the distribution of information about themselves
+  * 隱私：個人對於控制有關自己的信息分發的權利。
+* 5. Availability: Ensuring timely and reliable access to and use of information by authorized users
+  * 可用性：確保授權使用者能夠及時可靠地訪問和使用信息。
+* 6. Non-repudiation: The inability to deny taking an action, such as sending an email message
+  * 不可否認性：無法否認執行某一行動的能力，例如發送電子郵件。
+* 7. Authentication: Access control process that compares one or more factors of identification to validate that the identity claimed by a user or entity is known to the system
+  * 身份驗證：一種存取控制過程，通過比較一個或多個身份識別因素，驗證使用者或實體聲稱的身份在系統中已知。
 
-### Privacy
+### Privacy 隱私
 
-Privacy is **the right of an individual to control the distribution of information about themselves**. While security and privacy both focus on the protection of personal and sensitive data, there is a difference between them. With the increasing rate at which data is collected and digitally stored across all industries, the push for privacy legislation and compliance with existing policies steadily grows. In today’s global economy, privacy legislation and regulations on privacy and data protection can impact corporations and industries regardless of physical location. **Global privacy is an especially crucial issue when considering requirements regarding the collection and security of personal information**. There are several laws that define privacy and data protection, which periodically change. Ensuring that protective security measures are in place is not enough to meet privacy regulations or to protect a company from incurring penalties or fines from mishandling, misuse, or improper protection of personal or private information. An example of a law with multinational implications is the European Union’s General Data Protection Regulation (GDPR) which applies to all organizations, foreign or domestic, doing business in the EU or any persons in the EU. Companies operating or doing business within the United States may also fall under several state legislations that regulate the collection and use of consumer data and privacy. Likewise, member nations of the EU enact laws to put GDPR into practice and sometimes add more stringent requirements. These laws, including national- and state-level laws, dictate that any entity anywhere in the world handling the private data of people in a particular legal jurisdiction must abide by its privacy requirements. As a member of an organization's data protection team, you will not be required to interpret these laws, but you will need an understanding of how they apply to your organization.
+* Privacy is **the right of an individual to control the distribution of information about themselves**. While security and privacy both focus on the protection of personal and sensitive data, there is a difference between them. With the increasing rate at which data is collected and digitally stored across all industries, the push for privacy legislation and compliance with existing policies steadily grows. In today’s global economy, privacy legislation and regulations on privacy and data protection can impact corporations and industries regardless of physical location. **Global privacy is an especially crucial issue when considering requirements regarding the collection and security of personal information**. There are several laws that define privacy and data protection, which periodically change. Ensuring that protective security measures are in place is not enough to meet privacy regulations or to protect a company from incurring penalties or fines from mishandling, misuse, or improper protection of personal or private information. An example of a law with multinational implications is the European Union’s General Data Protection Regulation (GDPR) which applies to all organizations, foreign or domestic, doing business in the EU or any persons in the EU. Companies operating or doing business within the United States may also fall under several state legislations that regulate the collection and use of consumer data and privacy. Likewise, member nations of the EU enact laws to put GDPR into practice and sometimes add more stringent requirements. These laws, including national- and state-level laws, dictate that any entity anywhere in the world handling the private data of people in a particular legal jurisdiction must abide by its privacy requirements. As a member of an organization's data protection team, you will not be required to interpret these laws, but you will need an understanding of how they apply to your organization.
+  * 隱私是個體控制有關自己的信息分發的權利。雖然安全性和隱私性都專注於保護個人和敏感數據，但它們之間存在差異。隨著各行各業數據的不斷收集和數字化存儲速度加快，對隱私法規和遵守現有政策的推動也在穩步增長。在當今全球經濟中，隱私立法和數據保護的規定可以影響無論實體位置如何的企業和行業。當考慮有關個人信息收集和安全性要求時，全球隱私問題尤為重要。有幾項法律定義了隱私和數據保護，這些法律定期變化。確保採取了保護性安全措施並不足以滿足隱私法規或保護公司免受對個人或私人信息的處理、濫用或不當保護而產生的罰款或處罰。一個具有跨國影響的法律例子是歐盟的《一般數據保護規則》（GDPR），它適用於在歐盟經營業務的所有組織，無論是國內還是外國的，以及在歐盟境內的任何人。在美國運營或從事業務的公司也可能受到幾個州法律的約束，這些法律對消費者數據和隱私的收集和使用進行了規範。同樣，歐盟成員國通過法律實施GDPR，有時還增加了更嚴格的要求。這些法律，包括國家和州級法律，規定在特定法律管轄區內處理人們的私人數據的任何實體必須遵守其隱私要求。作為組織數據保護團隊的成員，您不需要解釋這些法律，但您需要了解它們如何適用於您的組織。
 
-## Module 2 Understand the risk management process
+## Module 2 Understand the risk management process 了解風險管理流程
 
 Domain D1.2.1, D1.2.2
 
-Risks and security-related issues represent **an ongoing concern** of businesses as well as the field of cybersecurity. Assessing and analyzing risk should be **a continuous and comprehensive** exercise in any organization. As a member of an organization’s security team, you will work through **risk assessment, analysis, mitigation, remediation and communication**.
+* Risks and security-related issues represent **an ongoing concern** of businesses as well as the field of cybersecurity. Assessing and analyzing risk should be **a continuous and comprehensive** exercise in any organization. As a member of an organization’s security team, you will work through **risk assessment, analysis, mitigation, remediation and communication**.
+  * 風險和與安全相關的問題代表著企業和信息安全領域持續關注的問題。評估和分析風險應該是任何組織中持續而全面的工作。作為組織安全團隊的成員，您將通過風險評估、分析、緩解、修復和溝通來進行工作。
 
-**Risk ** is  a measure of the extent to which an entity is threatened by a **potential** circumstance or event. It is often expressed as a combination of:
-    the **adverse impacts that would arise if the circumstance or event occurs**,  and 
-    the **likelihood** of occurrence. 
+* **Risk ** is  a measure of the extent to which an entity is threatened by a **potential** circumstance or event. It is often expressed as a combination of: 風險 是衡量一個實體受到潛在情況或事件威脅程度的度量。通常以以下幾個方面的組合來表示：
+  * the **adverse impacts that would arise if the circumstance or event occurs**,  and 
+    * 如果發生該情況或事件，所產生的不良影響。
+  * the **likelihood** of occurrence. 
+    * 發生的**可能性**
 
-Information security risk reflects the potential adverse impacts that result from the possibility of unauthorized access, use, disclosure, disruption, modification or destruction of information and/or information systems. This definition represents that **risk is associated with threats, impact and likelihood**, and it also indicates that IT risk is a subset of business risk. 
+* Information security risk reflects the potential adverse impacts that result from the possibility of unauthorized access, use, disclosure, disruption, modification or destruction of information and/or information systems. This definition represents that **risk is associated with threats, impact and likelihood**, and it also indicates that IT risk is a subset of business risk. 
+  * 信息安全風險反映了未經授權的訪問、使用、披露、干擾、修改或破壞信息和/或信息系統可能導致的潛在不良影響。這個定義表明，風險與威脅、影響和可能性相關，並且指出IT風險是業務風險的一個子集。
 
-Matrix: Probability X Impact generates four possible combinations:
+* Matrix: Probability X Impact generates four possible combinations: 矩陣：概率 X 影響生成四種可能的組合：
+  * 1. low probability, low impact
+    * 低概率，低影響
+  * 2. low probability, high impact
+    * 低概率，高影響
+  * 3. high probability, low impact
+    * 高概率，低影響
+  * 4. high probability, high impact
+    * 高概率，高影響
 
-1. low probability, low impact
-2. low probability, high impact
-3. high probability, low impact
-4. high probability, high impact
-
-### Risk Management Terminology
+### Risk Management Terminology 風險管理術語
 
 * **An asset** is something in need of protection because it has value to the organization. It could be a tangible asset or intangible, such as information.
+  * 資產是指需要保護的東西，因為它對組織具有價值。它可以是有形的資產或無形的，例如信息。
+
 * **A vulnerability** is a gap or weakness in an organization's protection of its valuable assets, including information. (NIST SP 800-30). A vulnerability is an inherent weakness or flaw in a system or component, which, if triggered or acted upon, could cause a risk event to occur. An organization’s security team strives to decrease its vulnerability. To do so, **they view their organization with the eyes of the threat actor**, asking themselves, **“Why would we be an attractive target?”** The answers might provide steps to take that will discourage threat actors, cause them to look elsewhere or simply make it more difficult to launch an attack successfully. **Managing vulnerabilities starts with one simple step: Learn what they are**.
+  * 漏洞是指組織在保護其有價值的資產（包括信息）方面存在的缺口或弱點。（NIST SP 800-30）。漏洞是系統或組件中的固有弱點或缺陷，如果被觸發或利用，可能導致風險事件發生。組織的安全團隊致力於降低其漏洞性。為此，他們以威脅角色的視角來看待自己的組織，自問：“為什麼我們會成為一個有吸引力的目標？”答案可能提供相應的措施，以阻止威脅角色，讓他們轉向其他目標，或者僅僅使成功發起攻擊變得更加困難。管理漏洞始於一個簡單的步驟：了解它們是什麼。
+
 * **A threat** is something or someone that aims to exploit a vulnerability to gain unauthorized access. A threat is a person or thing that takes action to exploit (or make use of) a target organization’s system vulnerabilities, as part of achieving or furthering its goal or objectives.
+  * 威脅是指旨在利用漏洞獲取未經授權訪問的事物或人。威脅是指針對目標組織的系統漏洞進行行動以實現或推進其目標或目的的人或物。
+
 * Likelihood, when determining an organization’s vulnerabilities, the security team will consider **the probability**, or likelihood , of **a potential vulnerability being exploited within the construct of the organization’s threat environment**. **Likelihood of occurrence is a weighted factor based on a subjective analysis of the probability that a given threat or set of threats is capable of exploiting a given vulnerability or set of vulnerabilities.**
+  * 在確定組織的漏洞時，安全團隊將考慮組織的威脅環境中，潛在漏洞被利用的概率或可能性。發生的可能性是基於主觀分析的權衡因素，評估給定的威脅或一組威脅能否利用給定的漏洞或一組漏洞。
 
-Finally, the security team will consider the likely results if a threat is realized and an event occurs. Impact is the magnitude of harm that can be expected to result from the consequences of unauthorized disclosure of information, unauthorized modification of information, unauthorized destruction of information, or loss of information or information system availability.
+* Finally, the security team will consider the likely results if a threat is realized and an event occurs. Impact is the magnitude of harm that can be expected to result from the consequences of unauthorized disclosure of information, unauthorized modification of information, unauthorized destruction of information, or loss of information or information system availability.
+  * 最後，安全團隊將考慮如果威脅實現並發生事件，可能的後果。影響是指由於未經授權的信息披露、未經授權的信息修改、未經授權的信息破壞或信息或信息系統可用性損失所預期產生的損害程度。
 
-Think about the impact and the chain of reaction that can result when an event occurs by revisiting the pickpocket scenario: **Risk comes from the intersection of those three concepts**.
+* Think about the impact and the chain of reaction that can result when an event occurs by revisiting the pickpocket scenario: **Risk comes from the intersection of those three concepts**.
+  * 想像一下事件發生時可能產生的影響和連鎖反應，重新思考扒手的情境：風險源於這三個概念的交集。
 
-### Risk Identification
+### Risk Identification 風險識別
 
-In the world of cyber, **identifying risks is not a one-and-done activity**. It’s a recurring process of identifying different possible risks, characterizing them and then estimating their potential for disrupting the organization.  
+* In the world of cyber, **identifying risks is not a one-and-done activity**. It’s a recurring process of identifying different possible risks, characterizing them and then estimating their potential for disrupting the organization.  
+  * 在網絡世界中，識別風險不是一次性的活動。這是一個循環過程，涉及識別不同的可能風險，對其進行特徵描述，然後估計其對組織的潛在擾亂程度。
 
-Takeaways to remember about risk identification: 
-* Identify risk to communicate it clearly. 
-* Employees at all levels of the organization are responsible for identifying risk.
-* Identify risk to protect against it.
+* Takeaways to remember about risk identification: 關於風險識別要記住的要點：
+  * Identify risk to communicate it clearly. 
+    * 識別風險以清楚地傳達它。
+  * Employees at all levels of the organization are responsible for identifying risk.
+    * 組織各級員工都有責任識別風險。
+  * Identify risk to protect against it.
+    * 識別風險以防範它。
 
-As a security professional, you are likely to assist in risk assessment at a system level, focusing **on process, control, monitoring or incident response and recovery activities**. If you’re working with a smaller organization, or one that lacks any kind of risk management and mitigation plan and program, you might have the opportunity to help fill that planning void.
+* As a security professional, you are likely to assist in risk assessment at a system level, focusing **on process, control, monitoring or incident response and recovery activities**. If you’re working with a smaller organization, or one that lacks any kind of risk management and mitigation plan and program, you might have the opportunity to help fill that planning void.
+  * 作為一名安全專業人員，你可能會在系統層面上協助進行風險評估，重點是處理流程、控制、監控或事件響應和恢復等活動。如果你在一家較小的組織工作，或者該組織缺乏任何形式的風險管理和減輕計劃，你可能有機會幫助填補這一規劃上的空白。
 
-### Risk Assessment
+### Risk Assessment 風險評估
 
-Risk assessment is defined as **the process of identifying**, **estimating and prioritizing risks to an organization’s operations** (including its mission, functions, image and reputation), **assets**, **individuals**, **other organizations and even the nation**. Risk assessment should result in aligning (or associating) **each identified risk resulting from the operation of an information system with the goals, objectives, assets or processes that the organization uses, which in turn aligns with or directly supports achieving the organization’s goals and objectives**. A risk assessment can prioritize items for management to determine the method of mitigation that best suits the assets being protected. The result of the risk assessment process is **often documented as a report or presentation given to management for their use in prioritizing the identified risk(s)**. This report is provided to management for review and approval. In some cases, management may indicate a need for a more in-depth or detailed risk assessment performed by internal or external resources.  
+* Risk assessment is defined as **the process of identifying**, **estimating and prioritizing risks to an organization’s operations** (including its mission, functions, image and reputation), **assets**, **individuals**, **other organizations and even the nation**. Risk assessment should result in aligning (or associating) **each identified risk resulting from the operation of an information system with the goals, objectives, assets or processes that the organization uses, which in turn aligns with or directly supports achieving the organization’s goals and objectives**. A risk assessment can prioritize items for management to determine the method of mitigation that best suits the assets being protected. The result of the risk assessment process is **often documented as a report or presentation given to management for their use in prioritizing the identified risk(s)**. This report is provided to management for review and approval. In some cases, management may indicate a need for a more in-depth or detailed risk assessment performed by internal or external resources.  
+  * 風險評估被定義為「識別、估計和優先考量對組織運作（包括其使命、功能、形象和聲譽）、資產、個人、其他組織甚至國家的風險的過程」。風險評估應該將由信息系統運營產生的每個已識別風險與組織使用的目標、目標、資產或流程相關聯，從而與或直接支持實現組織的目標和目標相一致。風險評估可以優先考慮項目，以便管理層確定最適合保護資產的減輕方法。風險評估過程的結果通常被記錄為報告或提交給管理層使用來優先考量已識別的風險。此報告將提交給管理層審查和批准。在某些情況下，管理層可能會表示需要由內部或外部資源進行更深入或詳細的風險評估。
 
-### Risk Treatment
+### Risk Treatment 風險處理
 
-Risk treatment relates **to making decisions about the best actions to take regarding the identified and prioritized risk**. The decisions made are dependent on the attitude of management toward risk and the availability — and cost — of risk mitigation. The options commonly used to respond to risk are:
+* Risk treatment relates **to making decisions about the best actions to take regarding the identified and prioritized risk**. The decisions made are dependent on the attitude of management toward risk and the availability — and cost — of risk mitigation. The options commonly used to respond to risk are:
+  * 
 
 * Avoidance: **It is the decision to attempt to eliminate the risk entirely**. This could include ceasing operation for some or all of the activities of the organization that are exposed to a particular risk. **Organization leadership may choose risk avoidance when the potential impact of a given risk is too high or if the likelihood of the risk being realized is simply too great**.
+  * 
 
 * Acceptance: Risk acceptance is taking **no action to reduce the likelihood of a risk occurring**. Management may opt for conducting the business function that is associated with the risk **without any further action on the part of the organization**, either because the impact or likelihood of occurrence is negligible, or because the benefit is more than enough to offset that risk.
+  * 
 
 * Mitigation: Risk mitigation **is the most common type of risk management and includes taking actions to prevent or reduce the possibility of a risk event or its impact**. Mitigation can involve **remediation measures**, **or controls**, **such as security controls, establishing policies, procedures, and standards to minimize adverse risk**. Risk cannot always be mitigated, but mitigations such as safety measures should always be in place.
+  * 
 
 * Transfer: **Risk transference is the practice of passing the risk to another party**, who will accept the financial impact of the harm resulting from a risk being realized in exchange for payment. Typically, this is an insurance policy.
+  * 
 
 ### Base Concepts
 
 * Mitigation: Taking action to prevent or reduce the impact of an event
+  * 
 * Acceptance: Ignoring the risks and continuing risky activities
+  * 
 * Avoidance: Ceasing the risky activity to remove the likelihood that an event will occur
+  * 
 * Vulnerability: An inherent weakness or flaw
+  * 
 * Asset: Something of value that is owned by an organization, including physical hardware and intellectual property
+  * 
 * Threat: A person or an entity that deliberately takes actions to exploit a target
+  * 
 * Transference: Passing risk to a third party
+  * 
 
 ### Risk Priorities
 
-When risks have been identified, it is time to prioritize and analyze core risks through qualitative risk analysis and/or quantitative risk analysis. This is necessary to determine **root cause and narrow down apparent risks and core risks**. Security professionals work with their teams to conduct both qualitative and quantitative analysis. 
+* When risks have been identified, it is time to prioritize and analyze core risks through qualitative risk analysis and/or quantitative risk analysis. This is necessary to determine **root cause and narrow down apparent risks and core risks**. Security professionals work with their teams to conduct both qualitative and quantitative analysis. 
+  * 
 
-Understanding the organization’s overall mission and the functions that support the mission helps **to place risks in context**, **determine the root causes and prioritize the assessment and analysis of these items**. In most cases, management will provide direction for using the findings of the risk assessment to determine a prioritized set of risk-response actions.
+* Understanding the organization’s overall mission and the functions that support the mission helps **to place risks in context**, **determine the root causes and prioritize the assessment and analysis of these items**. In most cases, management will provide direction for using the findings of the risk assessment to determine a prioritized set of risk-response actions.
+  * 
 
-One effective method to prioritize risk is to use **a risk matrix**, which helps identify priority **as the intersection of likelihood of occurrence and impact**. It also gives the team a common language to use with management when determining the final priorities. For example, a low likelihood and a low impact might result in a low priority, while an incident with a high likelihood and high impact will result in a high priority. Assignment of priority may relate to business priorities, the cost of mitigating a risk or the potential for loss if an incident occurs.
+* One effective method to prioritize risk is to use **a risk matrix**, which helps identify priority **as the intersection of likelihood of occurrence and impact**. It also gives the team a common language to use with management when determining the final priorities. For example, a low likelihood and a low impact might result in a low priority, while an incident with a high likelihood and high impact will result in a high priority. Assignment of priority may relate to business priorities, the cost of mitigating a risk or the potential for loss if an incident occurs.
+  * 
 
 ### Decision Making Based on Risk Priorities
 
-When making decisions based on risk priorities, organizations must evaluate the likelihood and impact of the risk as well as their tolerance for different sorts of risk. **A company in Hawaii is more concerned about the risk of volcanic eruptions than a company in Chicago, but the Chicago company will have to plan for blizzards**. In those cases, determining risk tolerance is up to the executive management and board of directors. If a company chooses to ignore or accept risk, exposing workers to asbestos, for example, it puts the company in a position of tremendous liability. 
+* When making decisions based on risk priorities, organizations must evaluate the likelihood and impact of the risk as well as their tolerance for different sorts of risk. **A company in Hawaii is more concerned about the risk of volcanic eruptions than a company in Chicago, but the Chicago company will have to plan for blizzards**. In those cases, determining risk tolerance is up to the executive management and board of directors. If a company chooses to ignore or accept risk, exposing workers to asbestos, for example, it puts the company in a position of tremendous liability. 
+  * 
 
 ### Risk Tolerance
 
-The perception management takes toward risk is often likened to the **entity’s appetite for risk**. **How much risk are they willing to take?** Does management welcome risk or want to avoid it? The level of risk tolerance varies across organizations, and even internally: Different departments may have different attitudes toward what is acceptable or unacceptable risk.
+* The perception management takes toward risk is often likened to the **entity’s appetite for risk**. **How much risk are they willing to take?** Does management welcome risk or want to avoid it? The level of risk tolerance varies across organizations, and even internally: Different departments may have different attitudes toward what is acceptable or unacceptable risk.
+  * 
 
-Understanding the organization and senior management’s attitude toward risk is usually the starting point for getting management to take action regarding risks. Executive management and/or the Board of Directors determines what is an acceptable level of risk for the organization. Security professionals aim to maintain the levels of risk within management’s limit of risk tolerance.
+* Understanding the organization and senior management’s attitude toward risk is usually the starting point for getting management to take action regarding risks. Executive management and/or the Board of Directors determines what is an acceptable level of risk for the organization. Security professionals aim to maintain the levels of risk within management’s limit of risk tolerance.
+  * 
 
-Often, risk tolerance is dictated by geographic location. For example, companies in Iceland plan for the risks that nearby volcanoes impose on their business. Companies that are outside the projected path of a lava flow will be at a lower risk than those directly in the path’s flow. Similarly, the likelihood of a power outage affecting the data center is a real threat in all areas of the world. In areas where thunderstorms are common, power outages may occur more than once a month, while other areas may only experience one or two power outages annually. Calculating the downtime that is likely to occur with varying lengths of downtime will help to define a company’s risk tolerance. If a company has a low tolerance of the risk of downtime, they are more likely to invest in a generator to power critical systems. A company with an even lower tolerance for downtime will invest in multiple generators with multiple fuel sources to provide a higher level of assurance that the power will not fail.
+* Often, risk tolerance is dictated by geographic location. For example, companies in Iceland plan for the risks that nearby volcanoes impose on their business. Companies that are outside the projected path of a lava flow will be at a lower risk than those directly in the path’s flow. Similarly, the likelihood of a power outage affecting the data center is a real threat in all areas of the world. In areas where thunderstorms are common, power outages may occur more than once a month, while other areas may only experience one or two power outages annually. Calculating the downtime that is likely to occur with varying lengths of downtime will help to define a company’s risk tolerance. If a company has a low tolerance of the risk of downtime, they are more likely to invest in a generator to power critical systems. A company with an even lower tolerance for downtime will invest in multiple generators with multiple fuel sources to provide a higher level of assurance that the power will not fail.
+  * 
 
 ## Module 3 Understand Security Control
 
@@ -245,18 +296,25 @@ Domain D1.3.1, D1.3.2, D1.3.3
 
 ### What are security controls? (FIBS PUB 199)
 
-Security controls pertain to the **physical**, **technical** and **administrative mechanisms** that act as **safeguards or countermeasures prescribed for an information system to protect the confidentiality**, **integrity** **and availability of the system and its information**. The implementation of controls should **reduce risk**, hopefully to an acceptable level.
+* Security controls pertain to the **physical**, **technical** and **administrative mechanisms** that act as **safeguards or countermeasures prescribed for an information system to protect the confidentiality**, **integrity** **and availability of the system and its information**. The implementation of controls should **reduce risk**, hopefully to an acceptable level.
+  * 
 
 * Physical control: it addresses process-based security needs using **physical hardware devices**, such as **badge readers**, **architectural features of buildings and facilities**, **and specific security actions to be taken by people**. They typically provide ways of controlling, directing or preventing the movement of people and equipment throughout a specific physical location, such as an office suite, factory or other facility. **Physical controls also provide protection and control over entry onto the land surrounding the buildings**, **parking lots or other areas that are within the organization’s control**. In most situations, physical controls are supported by technical controls as a means of incorporating them into an overall security system.
+  * 
 
 * Technical control: it (also called logical controls) is security controls that **computer systems and networks directly implement**. These controls can provide automated protection from unauthorized access or misuse, facilitate detection of security violations and support security requirements for applications and data. Technical controls can be configuration settings or parameters stored as data, managed through a software graphical user interface (GUI), or they can be hardware settings done with switches, jumper plugs or other means. However, the implementation of technical controls always requires significant operational considerations and should be consistent with the management of security within the organization. Many of these will be examined in more depth as we look at them in later sections in this chapter and in subsequent chapters.
+  * 
 
 * Administrative control: it (also known as managerial controls) is **directives**, **guidelines** or **advisories aimed at the people within the organization**. They provide frameworks, constraints and standards for human behavior, and should cover the entire scope of the organization’s activities and its interactions with external parties and stakeholders. It is vitally important to realize that administrative controls **can and should be powerful, effective tools for achieving information security**. Even the simplest security awareness policies can be an effective control, if you can help the organization fully implement them through systematic training and practice. Many organizations are improving their overall security posture by integrating their administrative controls into the task-level activities and operational decision processes that their workforce uses throughout the day. This can be done by providing them as in-context ready reference and advisory resources, or by linking them directly into training activities. These and other techniques bring the policies to a more neutral level and away from the decision-making of only the senior executives. It also makes them immediate, useful and operational on a daily and per-task basis.
+  * 
 
-Some examples:
-Administrative: acceptable use policy, emergency operations procedures, employee awareness training
-Physical: Badge reader, stop sign in parking lot, door lock
-Technical: access control list
+* Some examples:
+  * Administrative: acceptable use policy, emergency operations procedures, employee awareness training
+    * 
+  * Physical: Badge reader, stop sign in parking lot, door lock
+    * 
+  * Technical: access control list
+    * 
 
 ## Module 4 Understand Governance and Elements and Process
 
@@ -264,13 +322,22 @@ Domain D1.5.1, D1.5.2, D1.5.3, D1.5.4
 
 ### Governance Elements
 
-When leaders and management implement the systems and structures that the organization will use to achieve its goals, they are **guided by laws and regulations created by governments to enact public policy**. **Laws and regulations guide the development of standards, which cultivate policies, which result in procedures**.
+* When leaders and management implement the systems and structures that the organization will use to achieve its goals, they are **guided by laws and regulations created by governments to enact public policy**. **Laws and regulations guide the development of standards, which cultivate policies, which result in procedures**.
+  * 
 
 * **Procedures** are the detailed steps to complete a task that support departmental or organizational policies.
-* **Policies** are put in place by organizational governance, such as executive management, to provide guidance in all activities to ensure that the organization supports industry standards and regulations.
-* **Standards** are often used by governance teams to provide a framework to introduce policies and procedures in support of regulations.
-* **Regulations** are commonly issued in the form of laws, usually from government (not to be confused with governance) and typically carry financial penalties for noncompliance.
+  * 
 
-Regulations -> Standards -> Policies -> Procedures
+* **Policies** are put in place by organizational governance, such as executive management, to provide guidance in all activities to ensure that the organization supports industry standards and regulations.
+  * 
+
+* **Standards** are often used by governance teams to provide a framework to introduce policies and procedures in support of regulations.
+  * 
+
+* **Regulations** are commonly issued in the form of laws, usually from government (not to be confused with governance) and typically carry financial penalties for noncompliance.
+  * 
+
+* Regulations -> Standards -> Policies -> Procedures
+  * 
 
 ## Module 5 Understand (ISC)² Code of Ethics
