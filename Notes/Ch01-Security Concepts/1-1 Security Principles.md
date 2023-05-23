@@ -1,6 +1,6 @@
-# L1: Security Principles
+# L1: Security Principles 安全原則
 
-## Module 1 Understand the Security Concepts of Information Assurance
+## Module 1 Understand the Security Concepts of Information Assurance 了解信息保障的安全概念
 
 Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
 
