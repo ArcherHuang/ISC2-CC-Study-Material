@@ -312,7 +312,7 @@ Domain D1.3.1, D1.3.2, D1.3.3
   * Administrative: acceptable use policy, emergency operations procedures, employee awareness training
     * 管理控制：可接受使用政策、緊急操作程序、員工意識培訓。
   * Physical: Badge reader, stop sign in parking lot, door lock
-    * 物理：徽章閱讀器、停車場停車標誌、門鎖
+    * 實體控制：識別證閱讀器、停車場停止標誌、門鎖。
   * Technical: access control list
     * 技術：訪問控制列表
 
