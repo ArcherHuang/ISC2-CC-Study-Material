@@ -52,25 +52,25 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
 
 * To both MITM and Replay attacks the best approach is encryption.
   * 對於 MITM 和 Replay 攻擊，最好的方法是加密。
-  
+
 ### Availability 可用性
 
-* It means that systems and data are accessible at the time users need them. It can be defined as timely and reliable access to information and the ability to use it, and for authorized users, timely and reliable access to data and information services. 
-The core concept of availability is that data is accessible **to authorized users when and where it is needed and in the form and format required**. This does not mean that data or systems are available 100% of the time. Instead, the systems and data meet the requirements of the business for timely and reliable access. 
+* It means that systems and data are accessible at the time users need them. It can be defined as timely and reliable access to information and the ability to use it, and for authorized users, timely and reliable access to data and information services. The core concept of availability is that data is accessible **to authorized users when and where it is needed and in the form and format required**. This does not mean that data or systems are available 100% of the time. Instead, the systems and data meet the requirements of the business for timely and reliable access. 
+  * 這表示系統和數據在用戶需要時可被訪問。它可以被定義為及時可靠地訪問信息並能夠使用它，對於授權用戶而言，及時可靠地訪問數據和信息服務。可用性的核心概念是數據在需要的時間和地點以所需的形式和格式對授權用戶可訪問。這並不意味著數據或系統始終可用100%的時間。相反，系統和數據符合業務對及時可靠訪問的需求。
 
-* **Some systems and data are far more critical than others**, so the security professional **must ensure that the appropriate levels of availability are provided**. This requires consultation with the involved business to ensure that critical systems are identified and available. 
-Availability is often associated with the term **criticality**, which means a measure of the degree to which an organization depends on the information or information system for the success of a mission or of a business function (NIST SP 800-60), because it represents the importance an organization gives to data or an information system in performing its operations or achieving its mission
+* **Some systems and data are far more critical than others**, so the security professional **must ensure that the appropriate levels of availability are provided**. This requires consultation with the involved business to ensure that critical systems are identified and available. Availability is often associated with the term **criticality**, which means a measure of the degree to which an organization depends on the information or information system for the success of a mission or of a business function (NIST SP 800-60), because it represents the importance an organization gives to data or an information system in performing its operations or achieving its mission
+  * 某些系統和數據比其他系統更加重要，因此安全專業人員必須確保提供適當水平的可用性。這需要與相關業務進行協商，以確定關鍵系統的識別和可用性。可用性通常與重要性這一術語相關聯，重要性衡量的是組織在任務或業務功能的成功中依賴該信息或信息系統的程度（NIST SP 800-60），因為它代表了組織對數據或信息系統在執行其業務或實現其使命中的重要性。
 
-1. Denial of Service can be mitigated using firewalls to block unauthorized connections
-  * 
-2. Power outages can be mitigated using redundant power and generators
-  * 
-3. Hardware failures can be mitigated using redundant components
-  * 
-4. Destruction can be mitigated using backups
-  * 
-5. Service outages
-  * 
+* 1. Denial of Service can be mitigated using firewalls to block unauthorized connections
+  * 使用防火牆阻止未經授權的連接可以減輕阻斷服務攻擊。
+* 2. Power outages can be mitigated using redundant power and generators
+  * 使用冗餘電源和發電機可以減輕停電情況。
+* 3. Hardware failures can be mitigated using redundant components
+  * 使用冗餘組件可以減輕硬件故障的影響。
+* 4. Destruction can be mitigated using backups
+  * 使用備份可以減輕破壞的影響。
+* 5. Service outages
+  * 服務中斷
 
 ### Three steps to gain access, known as triple A, which means Authentication, Authorization, Accounting
 
