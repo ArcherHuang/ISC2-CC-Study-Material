@@ -248,14 +248,14 @@ Domain D4.1.1, D4.1.2
 
 ### SYN, SYN-ACK, ACK
 
-## Module 2 Understand Network (Cyber) Threats and Attacks
+## Module 2 Understand Network (Cyber) Threats and Attacks 了解網絡（網絡）威脅和攻擊
 
 Domain D4.1.2, D4.2.2, D4.2.3
 
-### Types of Threats
+### Types of Threats 威脅的種類
 
 * Spoofing: an attack with the goal of **gaining access to a target system through the use of a falsified identity**. Spoofing can be used against IP addresses, MAC address, usernames, system names, wireless network SSIDs, email addresses, and many other types of logical identification.
-  * 
+  * 偽造攻擊：一種攻擊目標系統的手段，目的是通過使用偽造的身份來獲取訪問權限。偽造攻擊可以針對IP地址、MAC地址、用戶名、系統名稱、無線網絡SSID、電子郵件地址和其他類型的邏輯身份進行。
 * Phising: an attack that **attempts to misdirect legitimate users to malicious websites through** the abuse of **URLs or hyperlinks in emails could be considered phishing**.
   * 
 * DoS/DDoS: a denial-of-service (DoS) attack is a network resource consumption attack that has the **primary goal of preventing legitimate activity on a victimized system**. Attacks involving numerous unsuspecting secondary victim systems are known as distributed denial-of-service (DDoS) attacks.
