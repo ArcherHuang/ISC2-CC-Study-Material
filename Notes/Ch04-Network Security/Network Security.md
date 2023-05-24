@@ -105,11 +105,11 @@ Domain D4.1.1, D4.1.2
     * 當討論交換機、橋接器或無線存取點（WAP）發送幀（frames）時，我們正在討論數據鏈路層（第2層）。
 
 * Encapsulation occurs as the data moves down the OSI model from Application to Physical. As data is encapsulated at each descending layer, the previous layer’s header, payload and footer are all treated as the next layer’s payload. The data unit size increases as we move down the conceptual model and the contents continue to encapsulate.  
-  * 
+  * 封裝（Encapsulation）在資料從應用層向下移動到物理層時發生。隨著資料在每個下降的層級進行封裝，前一層的標頭、有效負載和尾部都被視為下一層的有效負載。隨著我們在概念模型中向下移動，資料單元的大小增加，內容不斷封裝。
 
 * The inverse action occurs as data moves up the OSI model layers from Physical to Application. This process is known as de-encapsulation  (or decapsulation). The header and footer are used to properly interpret the data payload and are then discarded. As we move up the OSI model, the data unit becomes smaller. The encapsulation/de-encapsulation process is best depicted visually below: 
-  * 
-  
+  * 當資料從物理層向上移動到應用層時，反向的動作發生。這個過程被稱為解封裝（或解包裝）。標頭和尾部被用於正確解讀資料有效負載，然後被丟棄。隨著我們在OSI模型中向上移動，資料單元變得更小。封裝/解封裝過程可以在下面的圖示中更清楚地呈現：
+
 |            |             |              |                 |                |
 |------------|-------------|--------------|-----------------|----------------|
 | 7          | Application |              |        DATA     |                |
@@ -120,10 +120,11 @@ Domain D4.1.1, D4.1.2
 | 2          | Data Link   |              |  ||||||DATA||   |   <-- Footer   |
 | 1          | Physical    |              | |||||||DATA|||  |                |
 
-### Transmission Control Protocol/Internet Protocol (TCP/IP)
+### Transmission Control Protocol/Internet Protocol (TCP/IP) 傳輸控制協議/網際協議 (TCP/IP)
 
 * The OSI model wasn’t the first or only attempt to streamline networking protocols or establish a common communications standard. In fact, the most widely used protocol today, TCP/IP, was developed in the early 1970s. The OSI model was not developed until the late 1970s. The TCP/IP protocol stack focuses on the core functions of networking.  
-  * 
+  * OSI模型並不是第一個或唯一一次嘗試整合網路協議或建立共同通信標準。事實上，現今最廣泛使用的協議TCP/IP是在1970年代初開發的，而OSI模型則是在1970年代末才被開發出來。TCP/IP協議堆疊著重於網路的核心功能。
+
 ||TCP/IP Protocol Architecture Layers| |
 |-|-----------------------------------|-|
 |Application Layer |Defines the protocols for the transport layer|
@@ -132,96 +133,106 @@ Domain D4.1.1, D4.1.2
 |Network Interface Layer 	|How data moves through the network|
 
 * The most widely used protocol suite is TCP/IP, but it is not just a single protocol; rather, it is a protocol stack comprising dozens of individual protocols. TCP/IP is a platform-independent protocol based on open standards. However, this is both a benefit and a drawback. TCP/IP can be found in just about every available operating system, but it consumes a significant amount of resources and is relatively easy to hack into because it was designed for ease of use rather than for security. 
-  * 
+  * 最廣泛使用的協議套件是TCP/IP，但它不僅僅是一個單一的協議，而是由數十個個別的協議組成的協議堆疊。TCP/IP是一個基於開放標準的平台獨立協議。然而，這既是一個優點也是一個缺點。TCP/IP可以在幾乎所有的操作系統中找到，但它消耗大量的資源，且相對容易被入侵，因為它的設計目標是為了使用方便而非安全性。
 * At the Application Layer, TCP/IP protocols include **Telnet**, File Transfer Protocol (**FTP**), Simple Mail Transport Protocol (**SMTP**), and Domain Name Service (**DNS**). The two primary Transport Layer protocols of TCP/IP are **TCP and UDP**. **TCP is a full-duplex connection-oriented protocol, whereas UDP is a simplex connectionless protocol**. In the Internet Layer, **Internet Control Message Protocol (ICMP)** is used to determine the health of a network or a specific link. **ICMP is utilized by ping, traceroute and other network management tools**. The ping utility employs ICMP echo packets and bounces them off remote systems. Thus, you can use ping to determine whether the remote system is online, whether the remote system is responding promptly, whether the intermediary systems are supporting communications, and the level of performance efficiency at which the intermediary systems are communicating.
-  * 
+  * 在應用層，TCP/IP協議包括Telnet、文件傳輸協議（FTP）、簡單郵件傳輸協議（SMTP）和域名系統（DNS）。TCP/IP的兩個主要傳輸層協議是TCP和UDP。TCP是一個全雙工的連接導向協議，而UDP是一個單工的無連接協議。在網際網路層，Internet控制報文協議（ICMP）用於確定網絡或特定鏈路的狀態。ICMP被ping、traceroute和其他網絡管理工具使用。ping工具使用ICMP回應報文來測試與遠程系統的連通性。因此，你可以使用ping來確定遠程系統是否在線、遠程系統是否及時回應、中間系統是否支持通信以及中間系統之間的通信性能效率水平。
 * Application, Presentation and Session layers at OSI model is equivalent to Application Layer at TCP/IP, and the protocol suite is: FTP, Telnet, SNMP, LPD, TFPT, SMTP, NFS, X Window.
-  * 
+  * 在OSI模型中，應用層、表示層和會話層對應於TCP/IP的應用層，而相應的協議套件包括：FTP、Telnet、SNMP、LPD、TFTP、SMTP、NFS和X Window。
 * Transport layer are the same between OSI model and TCP/IP model, protocol suite: TCP, UDP
-  * 
+  * 在OSI模型和TCP/IP模型中，傳輸層是相同的，其協議套件包括：TCP和UDP。
 * Network layer at OSI model is equivalent to Internet layer at TCP/IP model, and protocol suite is: IGMP, IP, ICMP
-  * 
+  * 在OSI模型中，網路層相當於TCP/IP模型中的網際網路層，其協議套件包括：IGMP、IP和ICMP。
 * Data link and Physical layer at OSI model is equivalent at Network Interface layer at TCP/IP, and protocol suite is: Ethernet, Fast Ethernet, Token Ring, FDDI
-  * 
+  * 在OSI模型中，數據鏈路層和物理層相當於TCP/IP模型中的網路介面層，其協議套件包括：Ethernet、Fast Ethernet、Token Ring和FDDI。
 
-### Base concepts
+### Base concepts 基本概念
 
 * Switch: A device that routes traffic to the port of a known device
-  * 
+  * 換器：一種將流量路由到已知設備的端口的設備。
 * Server: A computer that provides information to other computers
-  * 
+  * 伺服器：一台提供資訊給其他電腦的電腦。
 * Firewall: A device that filters network traffic based on a defined set of rules
-  * 
+  * 防火牆：一個根據一組定義的規則過濾網路流量的設備。
 * Ethernet: A standard that defines wired communications of networked devices
-  * 
+  * 以太網（Ethernet）：一種定義網路設備有線通訊的標準。
 * IP Address: Logical address representing the network interface
-  * 
+  * IP位址（IP Address）：代表網路介面的邏輯位址。
 * MAC Address: Address that denotes the vendor or manufactures of the physical network interface
-  * 
+  * MAC位址（MAC Address）：代表物理網路介面的製造商或廠商的位址。
 
 ### Internet Protocol (IPv4 and IPv6)
 
 * IPv4 provides a 32-bit address space. IPv6 provides a 128-bit address space. The first one is exhausted nowadays, but it is still used because of the NAT technology. 32 bits means 4 octets of 8 bits, which is represented in a dotted decimal notation such as 192.168.0.1, which means in binary notation 11000000 10101000 00000000 00000001
-  * 
+  * IPv4提供了32位元的位址空間，而IPv6則提供了128位元的位址空間。目前，IPv4的位址已經耗盡，但由於NAT技術的存在，仍然在使用中。32位元表示為4組8位元的位元組（octets），以點分十進制表示法表示，例如192.168.0.1，在二進制表示法中為11000000 10101000 00000000 00000001。
 * IP hosts/devices associate an address with a unique logical address. An IPv4 address is expressed as four octets separated by a dot (.), for example, 216.12.146.140. Each octet may have a value between 0 and 255. However, **0 is the network itself (not a device on that network), and 255 is generally reserved for broadcast purposes**. Each address is subdivided into two parts: **the network number and the host**. The network number assigned by an external organization, such as the Internet Corporation for Assigned Names and Numbers (ICANN), represents the organization’s network. The host represents the network interface within the network.  
-  * 
+  * IP主機/裝置將位址與唯一的邏輯位址相關聯。IPv4位址由四個以點（.）分隔的位元組（octets）表示，例如216.12.146.140。每個位元組的值介於0和255之間。然而，0代表的是網路本身（而不是該網路上的裝置），而255則通常保留用於廣播目的。每個位址分為兩部分：網路號碼和主機號碼。由外部組織（例如互聯網名稱分配機構ICANN）指派的網路號碼代表組織的網路，而主機則代表網路內的網路介面。
 * **To ease network administration, networks are typically divided into subnets**. Because subnets cannot be distinguished with the addressing scheme discussed so far, a separate mechanism, **the subnet mask**, is used to define the part of the address used for the subnet. The mask is usually converted to decimal notation like 255.255.255.0. **With the ever-increasing number of computers and networked devices, it is clear that IPv4 does not provide enough addresses for our needs.** To overcome this shortcoming, **IPv4 was sub-divided into public and private address ranges.** Public addresses are limited with IPv4, but this issue was addressed in part with private addressing. Private addresses can be shared by anyone, and it is highly likely that everyone on your street is using the same address scheme.  
-  * 
+  * 為了簡化網路管理，網路通常被劃分為子網路。因為使用到目前為止討論的位址方案無法區分子網路，所以需要另外一個機制，即子網路遮罩（subnet mask），來定義用於子網路的部分位址。子網路遮罩通常以像是255.255.255.0這樣的十進位表示。隨著不斷增加的電腦和網路裝置數量，顯然IPv4無法提供足夠的位址滿足我們的需求。為了克服這個缺點，IPv4被細分為公共和私有位址範圍。公共位址在IPv4中受限，但這個問題在一定程度上透過私有位址解決了。私有位址可以由任何人共享，很可能你街上的每個人都在使用相同的位址方案。
 * The nature of the addressing scheme established by IPv4 meant that network designers had to start thinking in terms of IP address reuse. IPv4 facilitated this in several ways, such as its creation of the private address groups; this allows every LAN in every SOHO (small office, home office) situation to use addresses such as 192.168.2.xxx for its internal network addresses, without fear that some other system can intercept traffic on their LAN. This table shows the private addresses available for anyone to use:
-  * 
+  * IPv4所建立的位址方案的性質意味著網路設計師必須開始考慮IP位址的重複使用。IPv4以多種方式促進了這一點，例如創建了私有位址群組；這使得每個SOHO（小型辦公室，家庭辦公室）中的局域網都可以使用像192.168.2.xxx這樣的位址作為其內部網路位址，而不用擔心其他系統可以攔截其局域網上的流量。以下表格顯示了供任何人使用的私有位址：
+
 | RANGE |
 |-------|
 |10.0.0.0 to 10.255.255.254|
 |172.16.0.0 to 172.31.255.254|
 |192.168.0.0 to 192.168.255.254|
 
-* The first octet of **127 is reserved for a computer’s loopback address**. Usually, the address 127.0.0.1 is used. **The loopback address is used to provide a mechanism for self-diagnosis and troubleshooting at the machine level**. This mechanism allows a network administrator to treat a local machine as if it were a remote machine and ping the network interface to establish whether it is operational.
-  * 
-* IPv6 is a modernization of IPv4, which addressed a number of weaknesses in the IPv4 environment:
-  * A much larger address field: IPv6 addresses are **128 bits**, which supports 2128 or 340,282,366,920,938,463,463,374,607,431,768,211,456 hosts. **This ensures that we will not run out of addresses**.
-    * 
-  * Improved security:** IPsec is an optional part of IPv4 networks, but a mandatory component of IPv6 networks**. This will help ensure the integrity and confidentiality of IP packets and allow communicating partners **to authenticate with each other**.
-    * 
-  * Improved quality of service (QoS): This will help services obtain an appropriate share of a network’s bandwidth.
-    * 
-* An IPv6 address is shown as **8 groups of four digits**. Instead of numeric (0-9) digits like IPv4, **IPv6 addresses use the hexadecimal range (0000-ffff) and are separated by colons (:)** rather than periods (.). An example IPv6 address is **2001:0db8:0000:0000:0000:ffff:0000:0001**. To make it easier for humans to read and type, it can be shortened by removing the leading zeros at the beginning of each field and substituting two colons (::) for the longest consecutive zero fields. All fields must retain at least one digit. After shortening, the example address above is rendered as 2001:db8::ffff:0:1, which is much easier to type. As in IPv4, there are some addresses and ranges that are reserved for special uses:
-  * 
-  * ::1 is the local loopback address, used the same as 127.0.0.1 in IPv4.
-    * 
-  * The range 2001:db8:: to 2001:db8:ffff:ffff:ffff:ffff:ffff:ffff is reserved for documentation use, just like in the examples above.
-    * 
-  * **fc00**:: to **fdff**:ffff:ffff:ffff:ffff:ffff:ffff:ffff are addresses reserved for internal network use and are not routable on the internet.
-    * 
+```
+10.0.0.0 到 10.255.255.255
+172.16.0.0 到 172.31.255.255
+192.168.0.0 到 192.168.255.255
+```
 
-### What is WiFi?
+* The first octet of **127 is reserved for a computer’s loopback address**. Usually, the address 127.0.0.1 is used. **The loopback address is used to provide a mechanism for self-diagnosis and troubleshooting at the machine level**. This mechanism allows a network administrator to treat a local machine as if it were a remote machine and ping the network interface to establish whether it is operational.
+  * 127 的第一個八位元組保留給電腦的迴圈地址。通常使用地址127.0.0.1。迴圈地址用於提供機器級別的自我診斷和故障排除機制。這個機制允許網路管理員將本地機器視為遠程機器，並對網路接口進行ping測試，以確定它是否運作正常。
+* IPv6 is a modernization of IPv4, which addressed a number of weaknesses in the IPv4 environment: IPv6 是對 IPv4 環境中的一些弱點進行改進的現代化版本:
+  * A much larger address field: IPv6 addresses are **128 bits**, which supports 2128 or 340,282,366,920,938,463,463,374,607,431,768,211,456 hosts. **This ensures that we will not run out of addresses**.
+    * 更大的地址空間：IPv6 地址為 128 位元，支援 2128 或 340,282,366,920,938,463,463,374,607,431,768,211,456 個主機。這確保了我們不會用盡地址。
+  * Improved security:** IPsec is an optional part of IPv4 networks, but a mandatory component of IPv6 networks**. This will help ensure the integrity and confidentiality of IP packets and allow communicating partners **to authenticate with each other**.
+    * 提升的安全性：IPsec 在 IPv4 網路中是可選的部分，但在 IPv6 網路中則是強制性的組件。這將有助於確保 IP 封包的完整性和機密性，並允許通信伙伴彼此進行身份驗證。
+  * Improved quality of service (QoS): This will help services obtain an appropriate share of a network’s bandwidth.
+    * 提升的服務品質（QoS）：這將有助於服務獲得網路帶寬的適當份額。
+* An IPv6 address is shown as **8 groups of four digits**. Instead of numeric (0-9) digits like IPv4, **IPv6 addresses use the hexadecimal range (0000-ffff) and are separated by colons (:)** rather than periods (.). An example IPv6 address is **2001:0db8:0000:0000:0000:ffff:0000:0001**. To make it easier for humans to read and type, it can be shortened by removing the leading zeros at the beginning of each field and substituting two colons (::) for the longest consecutive zero fields. All fields must retain at least one digit. After shortening, the example address above is rendered as 2001:db8::ffff:0:1, which is much easier to type. As in IPv4, there are some addresses and ranges that are reserved for special uses:
+  * IPv6的地址表示為8組由四個數字組成的群組。不同於IPv4使用數字（0-9）的表示方式，IPv6地址使用十六進制範圍（0000-ffff）並以冒號（:) 分隔，而不是使用句號（.）。一個示例IPv6地址為2001:0db8:0000:0000:0000:ffff:0000:0001。為了方便人類閱讀和輸入，可以通過刪除每個字段開頭的前導零並用兩個冒號（::）替換最長連續零字段來簡化它。所有字段必須至少保留一個數字。簡化後，上述示例地址可表示為2001:db8::ffff:0:1，這樣更容易輸入。與IPv4一樣，有一些地址和範圍被保留為特殊用途：
+  * ::1 is the local loopback address, used the same as 127.0.0.1 in IPv4.
+    * 在IPv6中，::1是本地回送地址，與IPv4中的127.0.0.1相同。
+  * The range 2001:db8:: to 2001:db8:ffff:ffff:ffff:ffff:ffff:ffff is reserved for documentation use, just like in the examples above.
+    * 2001:db8::至2001:db8:ffff:ffff:ffff:ffff:ffff:ffff的範圍是為文件使用保留的，就像上面的例子一樣。
+  * **fc00**:: to **fdff**:ffff:ffff:ffff:ffff:ffff:ffff:ffff are addresses reserved for internal network use and are not routable on the internet.
+    * fc00::至fdff:ffff:ffff:ffff:ffff:ffff:ffff:ffff的地址是保留給內部網絡使用的，不能在互聯網上路由。
+
+### What is WiFi? 什麼是 WiFi ?
 
 * Wireless networking is a popular method of connecting corporate and home systems because of the ease of deployment and relatively low cost. It has made networking more versatile than ever before. Workstations and portable systems are no longer tied to a cable but can roam freely within the signal range of the deployed wireless access points. However, with this freedom comes additional vulnerabilities.
-  * 
+  * 無線網絡連接是連接企業和家庭系統的流行方法，因為它部署簡便且成本相對較低。它使網絡更加靈活多變。工作站和便攜系統不再受到電纜的束縛，而是可以在設置的無線接入點的信號範圍內自由漫遊。然而，隨著這種自由而來的是額外的漏洞性。
 * Wi-Fi range is generally wide enough for most homes or small offices, and range extenders may be placed strategically to extend the signal for larger campuses or homes. Over time the Wi-Fi standard has evolved, with each updated version faster than the last.  
-  * 
+  * Wi-Fi 的範圍通常對大多數家庭或小型辦公室來說足夠廣泛，並且可以 strategically（策略性地）放置範圍擴展器以擴大訊號範圍，以供較大的校園或住宅使用。隨著時間的推移，Wi-Fi 標準也在不斷演進，每個更新版本的速度都比前一個更快。
 * In a LAN, threat actors need to enter the physical space or immediate vicinity of the physical media itself. For wired networks, this can be done by placing sniffer taps onto cables, plugging in USB devices, or using other tools that require physical access to the network. By contrast, wireless media intrusions can happen at a distance. 
-  * 
-### Security of the Network 
+  * 在區域網路（LAN）中，威脅行為者需要進入物理空間或接近物理媒體本身。對於有線網路，這可以通過在電纜上安裝sniffer taps（嗅探器），插入USB設備或使用其他需要物理接入網路的工具來完成。相比之下，無線媒體的入侵可以在一定距離內發生。
+
+### Security of the Network 網路的安全
 
 * TCP/IP’s vulnerabilities are numerous. Improperly implemented TCP/IP stacks in various operating systems are vulnerable to various **DoS/DDoS attacks**, **fragment attacks**, **oversized packet attacks**, **spoofing attacks**, **and man-in-the-middle attacks**. TCP/IP (as well as most protocols) is also subject to passive attacks via monitoring or sniffing. Network monitoring, or sniffing, is the act of monitoring traffic patterns to obtain information about a network. 
-  * 
-### Ports and Protocols (Applications/Services)
+  * TCP/IP的漏洞很多。在各種作業系統中，未正確實施的TCP/IP堆疊容易受到各種DoS/DDoS攻擊、分段攻擊、超大封包攻擊、偽造攻擊和中間人攻擊的威脅。TCP/IP（以及大多數協議）也容易受到通過監控或嗅探進行的被動攻擊。網路監控或嗅探是指監測流量模式以獲取有關網路的信息。
+
+### Ports and Protocols (Applications/Services) 埠與協定 (應用程式 / 服務)
 
 * Physical Ports: Physical ports are the ports on the routers, switches, servers, computers, etc. that you connect the wires, e.g., fiber optic cables, Cat5 cables, etc., to create a network.
-  * 
+  * 物理埠口：物理埠口是路由器、交換器、伺服器、電腦等設備上的埠口，你可以通過連接電纜（例如光纖纜線、Cat5網線等）來建立網路。
 * Logical Ports: When a communication connection is established between two systems, it is done using ports. A logical port (also called a socket) is little more than an address number that both ends of the communication link agree to use when transferring data. Ports allow a single IP address to be able to support multiple simultaneous communications, each using a different port number. In the Application Layer of the TCP/IP model (which includes the Session, Presentation, and Application Layers of the OSI model) reside numerous application- or service-specific protocols. Data types are mapped using port numbers associated with services. For example, web traffic (or HTTP) is port 80. Secure web traffic (or HTTPS) is port 443. Table 5.4 highlights some of these protocols and their customary or assigned ports. You’ll note that in several cases a service (or protocol) may have two ports assigned, one secure and one insecure. When in doubt, systems should be implemented using the most secure version as possible of a protocol and its services.
-  * 
+  * 邏輯埠口：當兩個系統建立通訊連接時，使用的是埠口。邏輯埠口（也稱為套接字）只是一個地址號碼，通訊連接的兩端在傳輸數據時都同意使用該地址號碼。埠口允許單個IP地址支援多個同時通訊，每個通訊使用不同的埠口號碼。在TCP/IP模型的應用層（包括OSI模型的會話層、表示層和應用層）中，有許多應用或服務特定的協議。數據類型通過與服務相關聯的埠口號碼進行映射。例如，網頁流量（或HTTP）使用埠口80，安全的網頁流量（或HTTPS）使用埠口443。表5.4列出了一些這些協議及其常用或指定的埠口。需要注意的是，在幾種情況下，一個服務（或協議）可能有兩個指定的埠口，一個是安全的，一個是不安全的。如果不確定，系統應該使用協議及其服務的最安全版本。
   * Well-known ports (0–1023): These ports are related to the common protocols that are at the core of the Transport Control Protocol/Internet Protocol (TCP/IP) model, Domain Name Service (DNS), Simple Mail Transfer Protocol (SMTP), etc.
-    * 
+    * 知名埠口（0-1023）：這些埠口與Transport Control Protocol/Internet Protocol (TCP/IP)模型的核心相關，包括域名服務（DNS）、簡單郵件傳輸協議（SMTP）等常見協議。
   * Registered ports (1024–49151): These ports are often associated with proprietary applications from vendors and developers. While they are officially approved by the Internet Assigned Numbers Authority (IANA), in practice many vendors simply implement a port of their choosing. Examples include Remote Authentication Dial-In User Service (RADIUS) authentication (1812), Microsoft SQL Server (1433/1434) and the Docker REST API (2375/2376).
-    * 
+    * 已註冊埠口（1024-49151）：這些埠口通常與供應商和開發人員的專有應用程式相關。儘管它們已經獲得網際網路號碼分配管理局（IANA）的官方批准，但實際上許多供應商只是自行選擇一個埠口實現。例如，遠端驗證撥入使用者服務（RADIUS）驗證（1812）、Microsoft SQL Server（1433/1434）和Docker REST API（2375/2376）。
   * Dynamic or private ports (49152–65535): Whenever a service is requested that is associated with well-known or registered ports, those services will respond with a dynamic port that is used for that session and then released.
-    * 
+    * 動態或私有埠口（49152-65535）：每當要求與已知的或已註冊的埠口相關的服務時，這些服務將回應一個用於該會話的動態埠口，然後釋放該埠口。
 
-### Secure Ports
+### Secure Ports 安全埠
 
 * Some network protocols transmit information in clear text, meaning it is not encrypted and should not be used. Clear text information is subject to network sniffing. This tactic uses software to inspect packets of data as they travel across the network and extract text such as usernames and passwords. Network sniffing could also reveal the content of documents and other files if they are sent via insecure protocols. The table below shows some of the insecure protocols along with recommended secure alternatives.
-  * 
+  * 一些網絡協議以明文傳輸信息，這意味著它們沒有加密，不應該使用。明文信息容易受到網絡嗅探的攻擊。這種攻擊使用軟件檢查數據包在網絡上傳輸時，提取文本信息，如用戶名和密碼。如果使用不安全的協議發送文件和其他檔案，網絡嗅探也可能揭示其內容。下表列出了一些不安全的協議及其建議的安全替代方案。
+
 | Insecure Port | Description | Protocol | Secure Alternative Port | Protocol |
 |---------------|-------------|----------|-------------------------|----------|
 | 21 | Port 21, File Transfer Protocol (FTP) sends the username and password **using plaintext from the client to the server**. This could be intercepted by an attacker and later used to retrieve confidential information from the server. **The secure alternative, SFTP, on port 22 uses encryption to protect the user credentials and packets of data being transferred** | File Transfer Protocol 	|22* - SFTP	| Secure File Transfer Protocol|
