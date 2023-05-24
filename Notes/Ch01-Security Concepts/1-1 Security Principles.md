@@ -7,16 +7,16 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
 ### Confidentiality 機密
 
 * It relates to permitting authorized access to information, while at the same time protecting information from improper disclosure. Difficulties to achieve confidentiality are related to: **many users are guests or customers**, and it is not clear if the access comes from a compromised machine or vulnerable mobile application. To avoid those difficulties, security professionals must regulate access, permitting access to authorized individuals, for that protecting the data that needs protection. 
-  * 它涉及允許授權訪問信息，同時保護信息免受不當披露。實現機密性的困難與以下問題相關：很多用戶都是訪客或客戶，並且不清楚訪問是否來自被入侵的機器或有漏洞的移動應用程序。為了避免這些困難，安全專業人員必須規範訪問，允許授權人員訪問並保護需要保護的數據。
+  * 它涉及允許授權訪問信息，同時保護信息免受不當披露。實現機密性的困難與以下問題相關：**很多用戶都是訪客或客戶**，並且不清楚訪問是否來自被入侵的機器或有漏洞的移動應用程序。為了避免這些困難，安全專業人員必須規範訪問，允許授權人員訪問並保護需要保護的數據。
 
-* Data that needs protections is also known **as PII or PHI**.  需要保護的數據也被稱為 PII 或 PHI
+* Data that needs protections is also known **as PII or PHI**.  需要保護的數據也被稱為 **PII 或 PHI**
   * **PII** stands for Personally Identifiable Information and it is related to the area of confidentiality and it means any data that could be used to identify an individual. 
-    * PII 代表個人可識別信息，它與機密性領域有關，指的是可以用於識別個人的任何數據。
+    * **PII** 代表個人可識別信息，它與機密性領域有關，指的是可以用於識別個人的任何數據。
   * **PHI** stands for Protected Health Information and it comprehends information about one's health status, and classified or sensitive information, which includes trade secrets, research, business plans and intellectual property. 
-    * PHI 代表受保護的健康信息，包括關於個人健康狀況的信息，以及分類或敏感信息，其中包括商業機密、研究、業務計劃和知識產權。
+    * **PHI** 代表受保護的健康信息，包括關於個人健康狀況的信息，以及分類或敏感信息，其中包括商業機密、研究、業務計劃和知識產權。
 
 * Related to confidentiality is **the concept sensitivity a measure of the importance assigned to information by its owner**, or the purpose of denoting its need for protection. **Sensitive information** is information that if improperly disclosed (confidentiality) or modified (integrity) would harm an organization or individual. In many cases, sensitivity is related to the harm to external stakeholders; that is, people or organizations that may not be a part of the organization that processes or uses the information.
-  * 與機密性相關的是敏感度概念，它是根據信息擁有者對信息所賦予的重要性進行衡量，或者用於表示其需要受到保護的目的。敏感信息是指如果被不當披露（機密性）或修改（完整性），將對組織或個人造成損害的信息。在許多情況下，敏感性與對外部利益相關方的損害有關；也就是說，這些人或組織可能不是處理或使用信息的組織的一部分。
+  * 與機密性相關的是**敏感度概念，它是根據信息擁有者對信息所賦予的重要性進行衡量**，或者用於表示其需要受到保護的目的。**敏感信息**是指如果被不當披露（機密性）或修改（完整性），將對組織或個人造成損害的信息。在許多情況下，敏感性與對外部利益相關方的損害有關；也就是說，這些人或組織可能不是處理或使用信息的組織的一部分。
 
 * Threat related to confidentiality are: 與保密相關的威脅是：
   * 1. Snooping involves gathering information that is left out in the open. Clean desk policies protect against snooping.
@@ -33,10 +33,10 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
 ### Integrity 完整性
 
 * It is the property of information whereby it is recorded, used and maintained in a way that ensures its completeness, accuracy, internal consistency and usefulness for a stated purpose, which can be applied **to information or data**, **system and process for business operations**, **organizations**, **people and their actions**. Furthermore, restrict to data integrity, it is an assurance that  data has not been altered in an unauthorized manner, covering data **in storage**, during **processing**, and while **in transit**. 
-  * 完整性是信息的一項屬性，通過記錄、使用和維護的方式確保其完整性、準確性、內部一致性和對於指定目的的有用性，這可以應用於信息或數據、用於業務運營的系統和流程、組織、人員及其行動。此外，限於數據完整性，它是一種保證數據未經未經授權的方式進行更改的保證，涵蓋了存儲的數據、處理過程中的數據以及傳輸過程中的數據。
+  * 完整性是信息的一項屬性，通過記錄、使用和維護的方式確保其完整性、準確性、內部一致性和對於指定目的的有用性，這可以應用於**信息或數據**、**用於業務運營的系統和流程**、**組織**、**人員及其行動**。此外，限於數據完整性，它是一種保證數據未經未經授權的方式進行更改的保證，涵蓋了**存儲**的數據、處理過程中的數據以及**傳輸過程中**的數據。
 
 * **Consistency** is another concept related to integrity and requires that all instances of the data be identical in form, content and meaning. When related to system integrity, it refers to the maintenance of a known good configuration and expected operational function as the system processes the information. Ensuring integrity begins with an awareness of state, which is the current condition of the system. Specifically, this awareness concerns the ability to document and understand the state of data or a system at a certain point, **creating a baseline**. A baseline, which means a documented, lowest level of security configuration allowed by a standard or organization, can refer to the current state of the information—whether it is protected. 
-  * 一致性是與完整性相關的另一個概念，要求數據的所有實例在形式、內容和含義上都是相同的。當涉及到系統的完整性時，它指的是在系統處理信息時維護已知的良好配置和預期的操作功能。確保完整性始於對系統狀態的認識，即系統的當前狀態。具體而言，這種認識涉及在某一點上記錄和了解數據或系統的狀態，即創建基準。基準指的是根據標準或組織允許的安全配置的文件化最低級別，可以指的是信息的當前狀態，即是否受到保護。
+  * **一致性**是與完整性相關的另一個概念，要求數據的所有實例在形式、內容和含義上都是相同的。當涉及到系統的完整性時，它指的是在系統處理信息時維護已知的良好配置和預期的操作功能。確保完整性始於對系統狀態的認識，即系統的當前狀態。具體而言，這種認識涉及在某一點上記錄和了解數據或系統的狀態，即**創建基準**。基準指的是根據標準或組織允許的安全配置的文件化最低級別，可以指的是信息的當前狀態，即是否受到保護。
 
 * To preserve that state, the information must always continue to be protected through a transaction. Going forward from that baseline, the integrity of the data or the system can always be ascertained by comparing the baseline with the current state. If the two match, then the integrity of the data or the system is intact; if the two do not match, then the integrity of the data or the system has been compromised. Integrity is a primary factor in the reliability of information and systems. The need to safeguard information and system integrity may be dictated by laws and regulations. Often, it is dictated by the needs of the organization to access and use reliable, accurate information.
   * 為了保持這種狀態，信息必須始終通過交易來保護。從基準出發，可以通過將基準與當前狀態進行比較來確定數據或系統的完整性。如果兩者相匹配，則數據或系統的完整性保持完好；如果兩者不匹配，則數據或系統的完整性已被破壞。完整性是信息和系統可靠性的主要因素。保護信息和系統完整性的需要可能受到法律和法規的規定。通常情況下，這是根據組織對可靠、準確信息的訪問和使用需求來確定的。
@@ -59,7 +59,7 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
   * 這表示系統和數據在用戶需要時可被訪問。它可以被定義為及時可靠地訪問信息並能夠使用它，對於授權用戶而言，及時可靠地訪問數據和信息服務。可用性的核心概念是數據在需要的時間和地點以所需的形式和格式對授權用戶可訪問。這並不意味著數據或系統始終可用100%的時間。相反，系統和數據符合業務對及時可靠訪問的需求。
 
 * **Some systems and data are far more critical than others**, so the security professional **must ensure that the appropriate levels of availability are provided**. This requires consultation with the involved business to ensure that critical systems are identified and available. Availability is often associated with the term **criticality**, which means a measure of the degree to which an organization depends on the information or information system for the success of a mission or of a business function (NIST SP 800-60), because it represents the importance an organization gives to data or an information system in performing its operations or achieving its mission
-  * 某些系統和數據比其他系統更加重要，因此安全專業人員必須確保提供適當水平的可用性。這需要與相關業務進行協商，以確定關鍵系統的識別和可用性。可用性通常與重要性這一術語相關聯，重要性衡量的是組織在任務或業務功能的成功中依賴該信息或信息系統的程度（NIST SP 800-60），因為它代表了組織對數據或信息系統在執行其業務或實現其使命中的重要性。
+  * **某些系統和數據比其他系統更加重要**，因此安全專業人員**必須確保提供適當水平的可用性**。這需要與相關業務進行協商，以確定關鍵系統的識別和可用性。可用性通常與**重要性**這一術語相關聯，重要性衡量的是組織在任務或業務功能的成功中依賴該信息或信息系統的程度（NIST SP 800-60），因為它代表了組織對數據或信息系統在執行其業務或實現其使命中的重要性。
 
 * 1. Denial of Service can be mitigated using firewalls to block unauthorized connections
   * 使用防火牆阻止未經授權的連接可以減輕阻斷服務攻擊。
