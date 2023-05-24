@@ -10,9 +10,9 @@ Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
   * 它涉及允許授權訪問信息，同時保護信息免受不當披露。實現機密性的困難與以下問題相關：**很多用戶都是訪客或客戶**，並且不清楚訪問是否來自被入侵的機器或有漏洞的移動應用程序。為了避免這些困難，安全專業人員必須規範訪問，允許授權人員訪問並保護需要保護的數據。
 
 * Data that needs protections is also known **as PII or PHI**.  需要保護的數據也被稱為 **PII 或 PHI**
-  * **PII** stands for Personally Identifiable Information and it is related to the area of confidentiality and it means any data that could be used to identify an individual. 
+  * **PII ( Personally Identifiable Information )** stands for Personally Identifiable Information and it is related to the area of confidentiality and it means any data that could be used to identify an individual. 
     * **PII** 代表個人可識別信息，它與機密性領域有關，指的是可以用於識別個人的任何數據。
-  * **PHI** stands for Protected Health Information and it comprehends information about one's health status, and classified or sensitive information, which includes trade secrets, research, business plans and intellectual property. 
+  * **PHI ( Protected Health Information )** stands for Protected Health Information and it comprehends information about one's health status, and classified or sensitive information, which includes trade secrets, research, business plans and intellectual property. 
     * **PHI** 代表受保護的健康信息，包括關於個人健康狀況的信息，以及分類或敏感信息，其中包括商業機密、研究、業務計劃和知識產權。
 
 * Related to confidentiality is **the concept sensitivity a measure of the importance assigned to information by its owner**, or the purpose of denoting its need for protection. **Sensitive information** is information that if improperly disclosed (confidentiality) or modified (integrity) would harm an organization or individual. In many cases, sensitivity is related to the harm to external stakeholders; that is, people or organizations that may not be a part of the organization that processes or uses the information.
