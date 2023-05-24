@@ -109,6 +109,7 @@ Domain D4.1.1, D4.1.2
 
 * The inverse action occurs as data moves up the OSI model layers from Physical to Application. This process is known as de-encapsulation  (or decapsulation). The header and footer are used to properly interpret the data payload and are then discarded. As we move up the OSI model, the data unit becomes smaller. The encapsulation/de-encapsulation process is best depicted visually below: 
   * 
+  
 |            |             |              |                 |                |
 |------------|-------------|--------------|-----------------|----------------|
 | 7          | Application |              |        DATA     |                |
